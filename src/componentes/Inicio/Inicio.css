@@ -1,0 +1,37 @@
+/* Inicio.css */
+
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.boton-presupuestar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-presupuestar:hover {
+    background-color: #0056b3;
+}

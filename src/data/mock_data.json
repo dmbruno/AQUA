@@ -1,0 +1,73 @@
+{
+    "insumos": {
+        "Mangueras":{
+            "manguera de 1/2":{
+                "description": "lorem lorem lorem",
+                "price":200,
+                "category": "mangueras"
+            }
+                
+        },
+        "Aspersores":{
+            "manguera de 1/2":{
+                "description": "lorem lorem lorem",
+                "price":200,
+                "category": "mangueras"
+            }
+                
+        },
+        "Roscas":{
+            "manguera de 1/2":{
+                "description": "lorem lorem lorem",
+                "price":200,
+                "category": "mangueras"
+            }
+                
+        },
+        "Cables":{
+            "manguera de 1/2":{
+                "description": "lorem lorem lorem",
+                "price":200,
+                "category": "mangueras"
+            }
+                
+        },
+        "Tubos": {
+            "tubo polietileno 1/2\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 3/4\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 1\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 1 1/2\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 2 1/2\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 3 1/2\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            },
+            "tubo polietileno 4 1/2\"": {
+                "description": "lorem lorem lorem",
+                "price": 150,
+                "category": "tubos"
+            }
+        }
+    } 
+}
