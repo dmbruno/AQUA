@@ -4,11 +4,11 @@ const InsumosDetail = ({ insumos, categoriaSeleccionada }) => {
     const insumosCategoria = insumos[categoriaSeleccionada];
 
     return (
-        <div className="insumos-detalle p-4">
-            <h2 className='font-bold text-2xl py-3'>{categoriaSeleccionada}</h2>
-            <ul className="insumo-list">
+        <div className=" p-4">
+            <h2 className='font-bold py-3'>{categoriaSeleccionada}</h2>
+            <ul>
                 {Object.keys(insumosCategoria).map((nombre) => (
-                    <li key={nombre} className="insumo-item mb-2">
+                    <li key={nombre} className="mb-1">
                         <strong>{nombre}</strong> - ARS $ {insumosCategoria[nombre].price}
                     </li>
                 ))}
