@@ -2,38 +2,45 @@ import React, { useState } from 'react';
 import insumosData from '../../data/mock_data.json';
 import './InsumosList.css';
 import InsumosDetail from './InsumosDetail';
-import Header from '../Header'
+import Header from '../Header';
 
 const InsumosList = () => {
     const { insumos } = insumosData;
-    const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
-    const handleCategoriaClick = (categoria) => {
-        setCategoriaSeleccionada(categoria);
+    // Obtener todos los nombres únicos de los insumos
+    const nombresInsumos = insumos.map(insumo => Object.keys(insumo)[0]);
+    const nombresUnicos = [...new Set(nombresInsumos)];
+
+    const [insumoSeleccionado, setInsumoSeleccionado] = useState(null);
+
+    const handleInsumoClick = (nombreInsumo) => {
+        setInsumoSeleccionado(nombreInsumo);
     };
 
     return (
         <>
-        <Header/>
+            <Header />
             <div className='contenedor'>
                 <div className="insumos-container">
-                    {Object.keys(insumos).map((categoria) => (
+                    {/* Mapear sobre los nombres únicos de los insumos y mostrar un botón por cada uno */}
+                    {nombresUnicos.map((nombreInsumo, index) => (
                         <button
-                            key={categoria}
+                            key={index}
                             className="insumo-button"
-                            onClick={() => handleCategoriaClick(categoria)}
+                            onClick={() => handleInsumoClick(nombreInsumo)}
                         >
-                            {categoria}
+                            {nombreInsumo}
                         </button>
                     ))}
                 </div>
-                {categoriaSeleccionada && <InsumosDetail insumos={insumos} categoriaSeleccionada={categoriaSeleccionada} />}
+                {insumoSeleccionado && <InsumosDetail insumos={insumos} nombreInsumo={insumoSeleccionado} />}
             </div>
         </>
     );
 };
 
 export default InsumosList;
+
 
 
 
