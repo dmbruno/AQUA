@@ -1792,7 +1792,7 @@ const jsonReestructurado = {
 
 const jsonString = JSON.stringify(jsonReestructurado, null, 2);
 
-console.log(jsonString); // Esto imprimirá el JSON en la consola
+
 
 fs.writeFile('json_transformado.txt', jsonString, (err) => {
     if (err) {
