@@ -1,45 +1,44 @@
-import React, { useState } from 'react';
-import insumosData from '../../data/mock_data.json';
+
+import itemsData from '../../data/mock_data.json';
 import './InsumosList.css';
-import InsumosDetail from './InsumosDetail';
-import Header from '../Header';
+import Header from "../Header"
+import { Link } from 'react-router-dom';
+
 
 const InsumosList = () => {
-    const { insumos } = insumosData;
 
-    // Obtener todos los nombres únicos de los insumos
-    const nombresInsumos = insumos.map(insumo => Object.keys(insumo)[0]);
-    const nombresUnicos = [...new Set(nombresInsumos)];
+    const categorias = Object.keys(itemsData);
+    console.log("categorias: ", categorias);
+    
 
-    const [insumoSeleccionado, setInsumoSeleccionado] = useState(null);
-
-    const handleInsumoClick = (nombreInsumo) => {
-        setInsumoSeleccionado(nombreInsumo);
-    };
 
     return (
         <>
             <Header />
-            <div className='contenedor'>
-                <div className="insumos-container">
-                    {/* Mapear sobre los nombres únicos de los insumos y mostrar un botón por cada uno */}
-                    {nombresUnicos.map((nombreInsumo, index) => (
-                        <button
-                            key={index}
-                            className="insumo-button"
-                            onClick={() => handleInsumoClick(nombreInsumo)}
-                        >
-                            {nombreInsumo}
-                        </button>
-                    ))}
+            <div className='container'>
+                <div className='category-container'>
+                    <h2 className='category-title'>Categorías</h2>
+                    <ul className='category-list'>
+                    {categorias.map(categoria => (
+                            <li key={categoria} className='category-item'>
+                                <Link to={`/insumos/${categoria}`} className='category-link'>
+                                    {categoria}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-                {insumoSeleccionado && <InsumosDetail insumos={insumos} nombreInsumo={insumoSeleccionado} />}
             </div>
         </>
+
     );
 };
 
+
 export default InsumosList;
+
+
+
 
 
 

@@ -1,52 +1,51 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import itemsData from '../../data/mock_data.json';
 
-const InsumosDetail = ({ insumos, nombreInsumo }) => {
-    const [proveedorSeleccionado, setProveedorSeleccionado] = useState(null);
+const InsumosDetail = () => {
+    const { nombre } = useParams(); // Obtener el nombre de la categoría de la URL
+    console.log("nombre", nombre);
 
-    // Filtrar todos los insumos que tienen el mismo nombre
-    const insumosSeleccionados = insumos.filter(insumo => Object.keys(insumo)[0] === nombreInsumo);
+    // Obtener los productos de la categoría específica desde el JSON
+    const categoria = itemsData[nombre];
+    console.log("categoria", categoria);
 
-    // Filtrar los insumos seleccionados por el proveedor seleccionado
-    const insumosFiltradosPorProveedor = proveedorSeleccionado ?
-        insumosSeleccionados.filter(insumo => insumo[nombreInsumo].Proveedor === proveedorSeleccionado)
-        : insumosSeleccionados;
+    // Verificar si la categoría existe
+    if (!categoria) {
+        return <div>La categoría {nombre} no existe</div>;
+    }
 
+    // Obtener solo los nombres de los productos de la categoría
+    const nombresProductos = categoria.productos.map(producto => producto.Nombre);
+
+    // Renderizar la lista de nombres de productos
     return (
-        <div className="p-4 w-96">
-            <h2 className='font-bold py-3'>{nombreInsumo}</h2>
-            {/* Selector de proveedores */}
-            <select onChange={(e) => setProveedorSeleccionado(e.target.value)} defaultValue="">
-                <option value="">Todos los proveedores</option>
-                {/* Obtener la lista de proveedores únicos */}
-                {insumosSeleccionados.map((insumo, index) => (
-                    <option key={index} value={insumo[nombreInsumo].Proveedor}>
-                        {insumo[nombreInsumo].Proveedor}
-                    </option>
+        <div className="insumos-detail-container">
+            <h2>Productos en la categoría {nombre}</h2>
+            <ul>
+                {nombresProductos.map((nombreProducto, index) => (
+                    <li key={index}>{nombreProducto}</li>
                 ))}
-            </select>
-            {/* Iterar sobre todos los insumos seleccionados */}
-            {insumosFiltradosPorProveedor.map((insumo, index) => {
-                const detallesInsumo = insumo[nombreInsumo];
-                return (
-                    <ul key={index} className='w-96'>
-                        <li className="mb-1">
-                            <strong>Proveedor:</strong> {detallesInsumo.Proveedor}
-                        </li>
-                        <li className="mb-3">
-                            <strong>Descripción: </strong> {detallesInsumo.Descripción}
-                        </li>
-                        <li className="mb-3">
-                            <strong>ARS : </strong> {detallesInsumo.preciofinal}
-                        </li>
-                        {/* Agrega aquí los otros detalles del insumo */}
-                    </ul>
-                );
-            })}
+            </ul>
         </div>
     );
 };
 
 export default InsumosDetail;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

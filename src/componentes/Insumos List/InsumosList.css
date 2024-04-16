@@ -1,34 +1,50 @@
-.contenedor{
+.container {
     display: flex;
-    flex-direction: row;
-    width: 18.75rem;
+    justify-content: center;
+    width: auto;
+    margin: 20px;
 }
 
-
-.insumos-container {
+.category-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    height: 100vh;
-    background-color: #f5f5f5;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.category-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-item {
+    background-color: rgba(31, 41, 55, 0.498);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem;
+    
     
 }
 
-.insumo-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 12px;
-    border: 1px solid #ccc;
-    background-color: #fff;
+.category-link {
+    text-decoration: none;
     color: #333;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 18.75rem;
-    text-align: center;
+    transition: color 0.3s ease;
+    font-size: large;
 }
 
-.insumo-button:hover {
-    background-color: #e0e0e0;
-    
+.category-link:hover {
+    color: #00000083;
 }

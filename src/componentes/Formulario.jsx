@@ -33,7 +33,7 @@ const Formulario = () => {
             <form className='flex flex-col justify-center bg-gray-100 p-8'>
                 <h2 className='text-3xl font-bold underline mb-6'>Datos del Formulario</h2>
                 <div className='mb-4'>
-                    <label htmlFor="cantidadChicotes" className='block'>Cantidad de Chicotes/Aspersores:</label>
+                    <label htmlFor="cantidadChicotes" className='block'>Cantidad de Chicotes:</label>
                     <input type="number" id="cantidadChicotes" name="cantidadChicotes" value={formData.cantidadChicotes} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
                 </div>
                 <div className='mb-4'>
@@ -41,52 +41,41 @@ const Formulario = () => {
                     <input type="number" id="cantidadSectores" name="cantidadSectores" value={formData.cantidadSectores} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
                 </div>
                 <div className='mb-4'>
-                    <label htmlFor="longitudSector" className='block'>Longitud Sector:</label>
+                    <label htmlFor="longitudSector" className='block'>Longitud promedio del Sector:</label>
                     <input type="number" id="longitudSector" name="longitudSector" value={formData.longitudSector} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
                 </div>
                 <div className='mb-4'>
-                    <label htmlFor="cajaValvulas" className='block'>Caja de Válvulas:</label>
+                    <label htmlFor="cajaValvulas" className='block'>Tamaño del Colector:</label>
                     <input type="number" id="cajaValvulas" name="cajaValvulas" value={formData.cajaValvulas} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
                 </div>
                 <div className='mb-4'>
-                    <h2 className='text-2xl font-semibold mb-3'>Colector :</h2>
                     <label htmlFor="solenoide" className='flex items-center'>
                         <input type="checkbox" id="solenoide" name="solenoide" checked={formData.solenoide} onChange={handleChange} className='mr-2' />
-                        Válvula Solenoide
+                        Eléctrico
                     </label>
                 </div>
                 <div className='mb-4'>
                     <label htmlFor="cilindrica" className='flex items-center'>
                         <input type="checkbox" id="cilindrica" name="cilindrica" checked={formData.cilindrica} onChange={handleChange} className='mr-2' />
-                        Válvula Cilíndrica
+                        Manual
                     </label>
                 </div>
+                    
+
                 <div className='mb-4'>
-                    <label htmlFor="entreRoscas" className='block'>Entre Roscas de 1":</label>
-                    <input type="number" id="entreRoscas" name="entreRoscas" value={formData.entreRoscas} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
-                </div>
-                <div className='mb-4'>
-                    <label htmlFor="unionesDobles" className='block'>Uniones Dobles":</label>
-                    <input type="number" id="unionesDobles" name="unionesDobles" value={formData.unionesDobles} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
-                </div>
-                <div className='mb-4'>
-                    <label htmlFor="tapon" className='block'>Tapones:</label>
-                    <input type="number" id="tapon" name="tapon" value={formData.tapon} onChange={handleChange} className='w-full py-2 px-4 rounded border focus:outline-none focus:border-indigo-500' />
-                </div>
-                <div className='mb-4'>
-                    <label htmlFor="instalacionBomba" className='flex items-center'>
-                        <input type="checkbox" id="instalacionBomba" name="instalacionBomba" checked={formData.instalacionBomba} onChange={handleChange} className='mr-2' />
+                    <label htmlFor="instalacionBomba" className=' text-2xl flex items-center'>
+                        <input type="checkbox" id="instalacionBomba" name="instalacionBomba" checked={formData.instalacionBomba} onChange={handleChange} className=' mr-2' />
                         Instalación de bomba
                     </label>
                 </div>
                 <div className='mb-4'>
-                    <label htmlFor="instalacionTablero" className='flex items-center'>
+                    <label htmlFor="instalacionTablero" className='text-2xl flex items-center'>
                         <input type="checkbox" id="instalacionTablero" name="instalacionTablero" checked={formData.instalacionTablero} onChange={handleChange} className='mr-2' />
                         Instalación de tablero
                     </label>
                 </div>
                 <div className='mb-4'>
-                    <label htmlFor="domotizacion" className='flex items-center'>
+                    <label htmlFor="domotizacion" className='text-2xl flex items-center'>
                         <input type="checkbox" id="domotizacion" name="domotizacion" checked={formData.domotizacion} onChange={handleChange} className='mr-2' />
                         Domotización
                     </label>
