@@ -1,1414 +1,1520 @@
-{
-  "cañeria": {
+[
+  {
+    "id": 1,
+    "Categoria": "cañeria",
     "Nombre": "CAÑERÍAS DE POLIETILENO",
-    "productos": [
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-1206",
-        "Descripción": "Tubo Polietileno Polimex 1/2\" K6 x Mts.",
-        "medida": "1/2\"",
-        "precio de lista": "$ 686,15",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 608,62"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-1210",
-        "Descripción": "Tubo Polietileno Polimex 1/2\" K10 x Mts.",
-        "medida": "1/2\"",
-        "precio de lista": "$ 1.153,25",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.022,93"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-3404",
-        "Descripción": "Tubo Polietileno Polimex 3/4\" K4 x Mts.",
-        "medida": "3/4\"",
-        "precio de lista": "$ 943,11",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 836,54"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-3406",
-        "Descripción": "Tubo Polietileno Polimex 3/4\" K6 x Mts.",
-        "medida": "3/4\"",
-        "precio de lista": "$ 1.244,36",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.103,75"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-3410",
-        "Descripción": "Tubo Polietileno Polimex 3/4\" K10 x Mts.",
-        "medida": "3/4\"",
-        "precio de lista": "$ 1.792,69",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.590,12"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-1004",
-        "Descripción": "Tubo Polietileno Polimex 1\" K4 x Mts.",
-        "medida": "1\"",
-        "precio de lista": "$ 1.318,61",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.169,61"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-1006",
-        "Descripción": "Tubo Polietileno Polimex 1\" K6 x Mts.",
-        "medida": "1\"",
-        "precio de lista": "$ 2.099,75",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.862,48"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-11404",
-        "Descripción": "Tubo Polietileno Polimex 1 1/4\" K4 x Mts.",
-        "medida": "1 1/4\"",
-        "precio de lista": "$ 2.110,00",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 1.871,57"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-11204",
-        "Descripción": "Tubo Polietileno Polimex 1 1/2\" K4 x Mts.",
-        "medida": "1 1/2\"",
-        "precio de lista": "$ 3.010,13",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 2.669,99"
-      },
-       {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 1/2\" K4 x Mts.",
-        "medida": "1/2\"",
-        "precio de lista": "$ 130,00",
-        "IVA": "21%",
-        "Descuento": "0,0%",
-        "precio final": "$ 115,31"
-      },
-      {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 3/4\" K4 x Mts.",
-        "medida": "3/4\"",
-        "precio de lista": "$ 270,00",
-        "IVA": "21%",
-        "Descuento": "0,0%",
-        "precio final": "$ 239,49"
-      },
-      {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 1\" K4 x Mts.",
-        "medida": "1\"",
-        "precio de lista": "$ 440,00",
-        "IVA": "21%",
-        "Descuento": "0,0%",
-        "precio final": "$ 390,28"
-      },
-      {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 1 1/4\" K4 x Mts.",
-        "medida": "1 1/4\"",
-        "precio de lista": "$ 700,00",
-        "IVA": "21%",
-        "Descuento": "0,0%",
-        "precio final": "$ 620,90"
-      },
-      {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 1 1/2\" K4 x Mts.",
-        "medida": "1 1/2\"",
-        "precio de lista": "$ 740,00",
-        "IVA": "21%",
-        "Descuento": "",
-        "precio final": "$ 656,38"
-      },
-      {
-        "Proveedor": "Salta tubex",
-        "código": "sin codigo",
-        "Descripción": "Tubo Polietileno Polimex 2\" K4 x Mts.",
-        "medida": "2\"",
-        "precio de lista": "$ 860,00",
-        "IVA": "21%",
-        "Descuento": "",
-        "precio final": "$ 762,82"
-      },
-      {
-        "Proveedor": "Deex",
-        "código": "POL01-2004",
-        "Descripción": "Tubo Polietileno Polimex 2\" K4 x Mts.",
-        "medida": "2\"",
-        "precio de lista": "$ 5.299,65",
-        "IVA": "21%",
-        "Descuento": "11,3%",
-        "precio final": "$ 4.700,20"
-      }
-    ]
+    "Proveedor": "Deex",
+    "código": "POL01-1206",
+    "Descripción": "Tubo Polietileno Polimex 1/2\" K6 x  Mts.",
+    "medida": "1/2",
+    "precio de lista": "$  686.15",
+    "IVA": "21%"
   },
-  "enchufe": {
-      "Nombre": "ENCHUFES",
-      "productos": [
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220101",
-          "Descripción": "Enchufe RH polietileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 221,60",
-          "IVA": "21%",
-          "Precio final": "$ 196,56"
-        },
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220201",
-          "Descripción": "Enchufe RH polietileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 249,32",
-          "IVA": "21%",
-          "Precio final": "$ 221,15"
-        },
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220301",
-          "Descripción": "Enchufe RH polietileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 403,48",
-          "IVA": "21%",
-          "Precio final": "$ 357,89"
-        },
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220401",
-          "Descripción": "Enchufe RH polietileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.372,08",
-          "IVA": "21%",
-          "Precio final": "$ 1.217,03"
-        },
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220501",
-          "Descripción": "Enchufe RH polietileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 1.557,47",
-          "IVA": "21%",
-          "Precio final": "$ 1.381,48"
-        },
-        {
-          "Tipo": "ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220601",
-          "Descripción": "Enchufe RH polietileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 2.308,38",
-          "IVA": "21%",
-          "Precio final": "$ 2.047,53"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220102",
-          "Descripción": "Enchufe RM polietileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 143,74",
-          "IVA": "21%",
-          "Precio final": "$ 127,50"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220202",
-          "Descripción": "Enchufe RM polietileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 217,65",
-          "IVA": "21%",
-          "Precio final": "$ 193,06"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220302",
-          "Descripción": "Enchufe RM polietileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 312,81",
-          "IVA": "21%",
-          "Precio final": "$ 277,46"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220402",
-          "Descripción": "Enchufe RM polietileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 587,83",
-          "IVA": "21%",
-          "Precio final": "$ 521,41"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220502",
-          "Descripción": "Enchufe RM polietileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 711,41",
-          "IVA": "21%",
-          "Precio final": "$ 631,02"
-        },
-        {
-          "Tipo": "ROSCA MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220602",
-          "Descripción": "Enchufe RM polietileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 1.154,76",
-          "IVA": "21%",
-          "Precio final": "$ 1.024,27"
-        },
-        {
-          "Tipo": "TEE ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220105",
-          "Descripción": "Enchufe doble Tee RH 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 659,82",
-          "IVA": "21%",
-          "Precio final": "$ 585,26"
-        },
-        {
-          "Tipo": "TEE ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220205",
-          "Descripción": "Enchufe doble Tee RH 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 1.385,75",
-          "IVA": "21%",
-          "Precio final": "$ 1.229,16"
-        },
-   {
-          "Tipo": "TEE ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220505",
-          "Descripción": "Enchufe doble Tee RH 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 1.842,44",
-          "IVA": "21%",
-          "Precio final": "$ 1.634,24"
-        },
-        {
-          "Tipo": "TEE ROSCA HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220605",
-          "Descripción": "Enchufe doble Tee RH 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 2.771,68",
-          "IVA": "21%",
-          "Precio final": "$ 2.458,48"
-        },
-        {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220106",
-          "Descripción": "Enchufe doble codo 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 245,38",
-          "IVA": "21%",
-          "Precio final": "$ 217,65"
-        },
-        {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220206",
-          "Descripción": "Enchufe doble codo 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 263,86",
-          "IVA": "21%",
-          "Precio final": "$ 234,04"
-        },
-        {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220306",
-          "Descripción": "Enchufe doble codo 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 488,18",
-          "IVA": "21%",
-          "Precio final": "$ 433,02"
-        },
-        {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220406",
-          "Descripción": "Enchufe doble codo 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.074,13",
-          "IVA": "21%",
-          "Precio final": "$ 952,75"
-        },
-        {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220506",
-          "Descripción": "Enchufe doble codo 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 1.331,24",
-          "IVA": "21%",
-          "Precio final": "$ 1.180,81"
-        },
-          {
-          "Tipo": "DOBLE CODO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220606",
-          "Descripción": "Enchufe doble codo 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 1.768,54",
-          "IVA": "21%",
-          "Precio final": "$ 1.568,69"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220107",
-          "Descripción": "Enchufe codo RH 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 262,55",
-          "IVA": "21%",
-          "Precio final": "$ 232,88"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220207",
-          "Descripción": "Enchufe codo RH 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 344,36",
-          "IVA": "21%",
-          "Precio final": "$ 305,45"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220307",
-          "Descripción": "Enchufe codo RH 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 927,65",
-          "IVA": "21%",
-          "Precio final": "$ 822,83"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220407",
-          "Descripción": "Enchufe codo RH 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.662,95",
-          "IVA": "21%",
-          "Precio final": "$ 1.475,04"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220507",
-          "Descripción": "Enchufe codo RH 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 2.811,06",
-          "IVA": "21%",
-          "Precio final": "$ 2.493,41"
-        },
-        {
-          "Tipo": "CODO R/HEMBRA",
-          "Proveedor": "Deex",
-          "Código": "POL02-220607",
-          "Descripción": "Enchufe codo RH 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 3.801,21",
-          "IVA": "21%",
-          "Precio final": "$ 3.371,67"
-        },
-        {
-          "Tipo": "CODO R/MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220108",
-          "Descripción": "Enchufe codo RM 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 461,84",
-          "IVA": "21%",
-          "Precio final": "$ 409,65"
-        },
-        {
-          "Tipo": "CODO R/MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220208",
-          "Descripción": "Enchufe codo RM 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 600,63",
-          "IVA": "21%",
-          "Precio final": "$ 532,76"
-        },
-        {
-          "Tipo": "CODO R/MACHO",
-          "Proveedor": "Deex",
-          "Código": "POL02-220308",
-          "Descripción": "Enchufe codo RM 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 739,31",
-          "IVA": "21%",
-          "Precio final": "$ 655,77"
-        },
-        {
-          "Tipo": "R/MACHO CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221103",
-          "Descripción": "Enchufe RM con reducción 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 162,51",
-          "IVA": "21%",
-          "Precio final": "$ 144,15"
-        },
-        {
-          "Tipo": "R/MACHO CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221203",
-          "Descripción": "Enchufe RM con reducción 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 279,73",
-          "IVA": "21%",
-          "Precio final": "$ 248,12"
-        },
-        {
-          "Tipo": "R/MACHO CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221303",
-          "Descripción": "Enchufe RM con reducción 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 279,73",
-          "IVA": "21%",
-          "Precio final": "$ 248,12"
-        },
-        {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220103",
-          "Descripción": "Enchufe doble 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 141,10",
-          "IVA": "21%",
-          "Precio final": "$ 125,16"
-        },
-         {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220203",
-          "Descripción": "Enchufe doble 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 171,47",
-          "IVA": "21%",
-          "Precio final": "$ 152,09"
-        },
-        {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220303",
-          "Descripción": "Enchufe doble 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 299,86",
-          "IVA": "21%",
-          "Precio final": "$ 265,98"
-        },
-        {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220403",
-          "Descripción": "Enchufe doble 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 508,12",
-          "IVA": "21%",
-          "Precio final": "$ 450,70"
-        },
-        {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220503",
-          "Descripción": "Enchufe doble 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 631,68",
-          "IVA": "21%",
-          "Precio final": "$ 560,30"
-        },
-        {
-          "Tipo": "DOBLE",
-          "Proveedor": "Deex",
-          "Código": "POL02-220603",
-          "Descripción": "Enchufe doble 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 1.039,98",
-          "IVA": "21%",
-          "Precio final": "$ 922,46"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221102",
-          "Descripción": "Enchufe doble con reducción 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 165,67",
-          "IVA": "21%",
-          "Precio final": "$ 146,95"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221202",
-          "Descripción": "Enchufe doble con reducción 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 215,95",
-          "IVA": "21%",
-          "Precio final": "$ 191,55"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221302",
-          "Descripción": "Enchufe doble con reducción 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 215,95",
-          "IVA": "21%",
-          "Precio final": "$ 191,55"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221402",
-          "Descripción": "Enchufe doble con reducción 1 1/4\" x 1\" Polimex",
-          "Medida": "1 1/4\" x 1\"",
-          "Precio de lista": "$ 406,48",
-          "IVA": "21%",
-          "Precio final": "$ 360,55"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221502",
-          "Descripción": "Enchufe doble con reducción 1 1/2\" x 1 1/4\" Polimex",
-          "Medida": "1 1/2\" x 1 1/4\"",
-          "Precio de lista": "$ 505,33",
-          "IVA": "21%",
-          "Precio final": "$ 448,23"
-        },
-        {
-          "Tipo": "DOBLE CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-221602",
-          "Descripción": "Enchufe doble con reducción 2\" x 1 1/2\" Polimex",
-          "Medida": "2\" x 1 1/2\"",
-          "Precio de lista": "$ 858,48",
-          "IVA": "21%",
-          "Precio final": "$ 761,47"
-        }
-      ]
-    }
-  }, 
-  "codo": {
-      "Nombre": "CODOS",
-      "productos": [
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120101",
-          "Descripción": "Codo HH 90° Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 254,71",
-          "IVA": "21%",
-          "Precio final": "$ 225,93"
-        },
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120201",
-          "Descripción": "Codo HH 90° Polipropileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 417,35",
-          "IVA": "21%",
-          "Precio final": "$ 370,19"
-        },
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120301",
-          "Descripción": "Codo HH 90° Polipropileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 967,36",
-          "IVA": "21%",
-          "Precio final": "$ 858,05"
-        },
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120401",
-          "Descripción": "Codo HH 90° Polipropileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.382,86",
-          "IVA": "21%",
-          "Precio final": "$ 1.226,60"
-        },
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120501",
-          "Descripción": "Codo HH 90° Polipropileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 1.990,09",
-          "IVA": "21%",
-          "Precio final": "$ 1.765,21"
-        },
-        {
-          "Tipo": "HH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120601",
-          "Descripción": "Codo HH 90° Polipropileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 3.042,18",
-          "IVA": "21%",
-          "Precio final": "$ 2.698,41"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120108",
-          "Descripción": "Codo MH 90° Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 276,61",
-          "IVA": "21%",
-          "Precio final": "$ 245,35"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120208",
-          "Descripción": "Codo MH 90° Polipropileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 487,72",
-          "IVA": "21%",
-          "Precio final": "$ 432,61"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120308",
-          "Descripción": "Codo MH 90° Polipropileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 830,03",
-          "IVA": "21%",
-          "Precio final": "$ 736,24"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120408",
-          "Descripción": "Codo MH 90° Polipropileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.963,30",
-          "IVA": "21%",
-          "Precio final": "$ 1.741,45"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120508",
-          "Descripción": "Codo MH 90° Polipropileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 2.876,32",
-          "IVA": "21%",
-          "Precio final": "$ 2.551,30"
-        },
-        {
-          "Tipo": "MH 90°",
-          "Proveedor": "Deex",
-          "Código": "POL02-120608",
-          "Descripción": "Codo MH 90° Polipropileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 4.590,94",
-          "IVA": "21%",
-          "Precio final": "$ 4.072,16"
-        },
-        {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121211",
-          "Descripción": "Codo HH 45° Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 542,45",
-          "IVA": "21%",
-          "Precio final": "$ 481,15"
-        },
-        {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121212",
-          "Descripción": "Codo HH 45° Polipropileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 737,93",
-          "IVA": "21%",
-          "Precio final": "$ 654,54"
-        },
-         {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121213",
-          "Descripción": "Codo HH 45° Polipropileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 1.371,61",
-          "IVA": "21%",
-          "Precio final": "$ 1.216,62"
-        },
-        {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121214",
-          "Descripción": "Codo HH 45° Polipropileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 2.406,43",
-          "IVA": "21%",
-          "Precio final": "$ 2.134,50"
-        },
-        {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121215",
-          "Descripción": "Codo HH 45° Polipropileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 3.861,05",
-          "IVA": "21%",
-          "Precio final": "$ 3.424,75"
-        },
-        {
-          "Tipo": "HH 45°",
-          "Proveedor": "Deex",
-          "Código": "POL02-121216",
-          "Descripción": "Codo HH 45° Polipropileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 7.727,38",
-          "IVA": "21%",
-          "Precio final": "$ 6.854,19"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-120812",
-          "Descripción": "Codo HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 814,57",
-          "IVA": "21%",
-          "Precio final": "$ 722,52"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121012",
-          "Descripción": "Codo HH con reducción Polipropileno 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 1.020,95",
-          "IVA": "21%",
-          "Precio final": "$ 905,58"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121112",
-          "Descripción": "Codo HH con reducción Polipropileno 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 1.139,81",
-          "IVA": "21%",
-          "Precio final": "$ 1.011,01"
-        }
-      ]
+  {
+    "id": 2,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-1210",
+    "Descripción": "Tubo Polietileno Polimex 1/2\" K10 x  Mts.",
+    "medida": "1/2",
+    "precio de lista": "$  1,153.25",
+    "IVA": "21%"
   },
-   "codo Tee": {
-      "Nombre": "TEE",
-      "productos": [
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120102",
-          "Descripción": "Tee HH Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 342,29",
-          "IVA": "21%",
-          "Precio final": "$ 303,61"
-        },
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120202",
-          "Descripción": "Tee HH Polipropileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 564,34",
-          "IVA": "21%",
-          "Precio final": "$ 500,57"
-        },
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120302",
-          "Descripción": "Tee HH Polipropileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 1.161,70",
-          "IVA": "21%",
-          "Precio final": "$ 1.030,43"
-        },
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120402",
-          "Descripción": "Tee HH Polipropileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.647,16",
-          "IVA": "21%",
-          "Precio final": "$ 1.461,03"
-        },
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120502",
-          "Descripción": "Tee HH Polipropileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 2.267,36",
-          "IVA": "21%",
-          "Precio final": "$ 2.011,15"
-        },
-        {
-          "Tipo": "HH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120602",
-          "Descripción": "Tee HH Polipropileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 4.121,05",
-          "IVA": "21%",
-          "Precio final": "$ 3.655,37"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-120811",
-          "Descripción": "Tee HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 1.247,75",
-          "IVA": "21%",
-          "Precio final": "$ 1.106,75"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121011",
-          "Descripción": "Tee HH con reducción Polipropileno 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 1.361,90",
-          "IVA": "21%",
-          "Precio final": "$ 1.208,01"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121111",
-          "Descripción": "Tee HH con reducción Polipropileno 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 1.329,03",
-          "IVA": "21%",
-          "Precio final": "$ 1.178,85"
-        }
-      ]
-    },
-     "cupla": {
-      "Nombre": "CUPLA",
-      "productos": [
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120104",
-          "Descripción": "Cupla RH Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 206,24",
-          "IVA": "21%",
-          "Precio final": "$ 182,93"
-        },
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120204",
-          "Descripción": "Cupla RH Polipropileno 3/4\" Polimex",
-          "Medida": "3/4\"",
-          "Precio de lista": "$ 406,39",
-          "IVA": "21%",
-          "Precio final": "$ 360,47"
-        },
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120304",
-          "Descripción": "Cupla RH Polipropileno 1\" Polimex",
-          "Medida": "1\"",
-          "Precio de lista": "$ 691,81",
-          "IVA": "21%",
-          "Precio final": "$ 613,64"
-        },
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120404",
-          "Descripción": "Cupla RH Polipropileno 1 1/4\" Polimex",
-          "Medida": "1 1/4\"",
-          "Precio de lista": "$ 1.199,72",
-          "IVA": "21%",
-          "Precio final": "$ 1.064,15"
-        },
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120504",
-          "Descripción": "Cupla RH Polipropileno 1 1/2\" Polimex",
-          "Medida": "1 1/2\"",
-          "Precio de lista": "$ 1.520,20",
-          "IVA": "21%",
-          "Precio final": "$ 1.348,42"
-        },
-        {
-          "Tipo": "RH",
-          "Proveedor": "Deex",
-          "Código": "POL02-120604",
-          "Descripción": "Cupla RH Polipropileno 2\" Polimex",
-          "Medida": "2\"",
-          "Precio de lista": "$ 2.046,24",
-          "IVA": "21%",
-          "Precio final": "$ 1.815,01"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-120710",
-          "Descripción": "Cupla HH con reducción Polipropileno 1/2\" x 3/8\" Polimex",
-          "Medida": "1/2\" x 3/8\"",
-          "Precio de lista": "$ 331,37",
-          "IVA": "21%",
-          "Precio final": "$ 293,93"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-120810",
-          "Descripción": "Cupla HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 331,37",
-          "IVA": "21%",
-          "Precio final": "$ 293,93"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121010",
-          "Descripción": "Cupla HH con reducción Polipropileno 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 586,22",
-          "IVA": "21%",
-          "Precio final": "$ 519,98"
-        },
-        {
-          "Tipo": "HH CON REDUCCIÓN",
-          "Proveedor": "Deex",
-          "Código": "POL02-121110",
-          "Descripción": "Cupla HH con reducción Polipropileno 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 689,44",
-          "IVA": "21%",
-          "Precio final": "$ 611,53"
-        },
-        {
-          "Tipo": "MH",
-          "Proveedor": "Deex",
-          "Código": "POL02-121104",
-          "Descripción": "Cupla MH Polipropileno 1/2\" Polimex",
-          "Medida": "1/2\"",
-          "Precio de lista": "$ 282,85",
-          "IVA": "21%",
-          "Precio final": "$ 250,89"
-        }
-      ]
-    },
-     "BUJES": {
-      "nombre": "BUJES DE REDUCCION",
-      "productos": [
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-120809",
-          "Descripción": "Buje reducción Polipropileno 3/4\" x 1/2\" Polimex",
-          "Medida": "3/4\" x 1/2\"",
-          "Precio de lista": "$ 151,49",
-          "IVA": "21%",
-          "Precio final": "$ 134,37"
-        },
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-121009",
-          "Descripción": "Buje reducción Polipropileno 1\" x 3/4\" Polimex",
-          "Medida": "1\" x 3/4\"",
-          "Precio de lista": "$ 298,50",
-          "IVA": "21%",
-          "Precio final": "$ 264,77"
-        },
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-121809",
-          "Descripción": "Buje reducción Polipropileno 1 1/2\" x 1\" Polimex",
-          "Medida": "1 1/2\" x 1\"",
-          "Precio de lista": "$ 601,97",
-          "IVA": "21%",
-          "Precio final": "$ 533,95"
-        },
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-121909",
-          "Descripción": "Buje reducción Polipropileno 1 1/2\" x 3/4\" Polimex",
-          "Medida": "1 1/2\" x 3/4\"",
-          "Precio de lista": "$ 630,05",
-          "IVA": "21%",
-          "Precio final": "$ 558,85"
-        },
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-122009",
-          "Descripción": "Buje reducción Polipropileno 1 1/2\" x 1/2\" Polimex",
-          "Medida": "1 1/2\" x 1/2\"",
-          "Precio de lista": "$ 683,15",
-          "IVA": "21%",
-          "Precio final": "$ 605,95"
-        },
-        {
-          "Proveedor": "Deex",
-          "Código": "POL02-122309",
-          "Descripción": "Buje reducción Polipropileno 1\" x 1/2\" Polimex",
-          "Medida": "1\" x 1/2\"",
-          "Precio de lista": "$ 221,87",
-          "IVA": "21%",
-          "Precio final": "$ 196,80"
-        }
-      ]
-    },
-   "CRUZ": {
-    "nombre": "CRUZ HHHH",
-    "productos": [
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120118",
-        "Descripción": "Cruz Polipropileno 1/2\" Polimex",
-        "Medida": "1/2\"",
-        "Precio de lista": "$ 1.030,35",
-        "IVA": "21%",
-        "Precio final": "$ 913,92"
-      },
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120218",
-        "Descripción": "Cruz Polipropileno 3/4\" Polimex",
-        "Medida": "3/4\"",
-        "Precio de lista": "$ 1.952,96",
-        "IVA": "21%",
-        "Precio final": "$ 1.732,28"
-      },
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120318",
-        "Descripción": "Cruz Polipropileno 1\" Polimex",
-        "Medida": "1\"",
-        "Precio de lista": "$ 2.764,91",
-        "IVA": "21%",
-        "Precio final": "$ 2.452,48"
-      },
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120418",
-        "Descripción": "Cruz Polipropileno 1 1/4\" Polimex",
-        "Medida": "1 1/4\"",
-        "Precio de lista": "$ 3.595,01",
-        "IVA": "21%",
-        "Precio final": "$ 3.188,77"
-      },
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120518",
-        "Descripción": "Cruz Polipropileno 1 1/2\" Polimex",
-        "Medida": "1 1/2\"",
-        "Precio de lista": "$ 4.977,93",
-        "IVA": "21%",
-        "Precio final": "$ 4.415,42"
-      },
-      {
-        "Proveedor": "Deex",
-        "Código": "POL02-120618",
-        "Descripción": "Cruz Polipropileno 2\" Polimex",
-        "Medida": "2\"",
-        "Precio de lista": "$ 9.734,82",
-        "IVA": "21%",
-        "Precio final": "$ 8.634,79"
-      }
-    ]
+  {
+    "id": 3,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-3404",
+    "Descripción": "Tubo Polietileno Polimex 3/4\" K4 x  Mts.",
+    "medida": "3/4",
+    "precio de lista": "$  943.11",
+    "IVA": "21%"
   },
-   "TAPONES": {
-    "nombre": "TAPÓN",
-    "productos": [
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120107",
-        "Descripción": "Tapón rosca macho Polietileno 1/2\" Polimex",
-        "Medida": "1/2\"",
-        "Precio de lista": "$ 157,76",
-        "IVA": "21%",
-        "Precio final": "$ 139,93"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120207",
-        "Descripción": "Tapón rosca macho Polietileno 3/4\" Polimex",
-        "Medida": "3/4\"",
-        "Precio de lista": "$ 184,36",
-        "IVA": "21%",
-        "Precio final": "$ 163,53"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120307",
-        "Descripción": "Tapón rosca macho Polipropileno 1\" Polimex",
-        "Medida": "1\"",
-        "Precio de lista": "$ 326,43",
-        "IVA": "21%",
-        "Precio final": "$ 289,54"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120407",
-        "Descripción": "Tapón rosca macho Polietileno 1 1/4\" Polimex",
-        "Medida": "1 1/4\"",
-        "Precio de lista": "$ 465,48",
-        "IVA": "21%",
-        "Precio final": "$ 412,88"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120507",
-        "Descripción": "Tapón rosca macho Polietileno 1 1/2\" Polimex",
-        "Medida": "1 1/2\"",
-        "Precio de lista": "$ 530,26",
-        "IVA": "21%",
-        "Precio final": "$ 470,34"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RM",
-        "Código": "POL02-120607",
-        "Descripción": "Tapón rosca macho Polietileno 2\" Polimex",
-        "Medida": "2\"",
-        "Precio de lista": "$ 1.354,35",
-        "IVA": "21%",
-        "Precio final": "$ 1.201,31"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120105",
-        "Descripción": "Tapón rosca hembra Polietileno 1/2\" Polimex",
-        "Medida": "1/2\"",
-        "Precio de lista": "$ 124,95",
-        "IVA": "21%",
-        "Precio final": "$ 110,83"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120205",
-        "Descripción": "Tapón rosca hembra Polietileno 3/4\" Polimex",
-        "Medida": "3/4\"",
-        "Precio de lista": "$ 179,67",
-        "IVA": "21%",
-        "Precio final": "$ 159,37"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120305",
-        "Descripción": "Tapón rosca hembra Polietileno 1\" Polimex",
-        "Medida": "1\"",
-        "Precio de lista": "$ 353,21",
-        "IVA": "21%",
-        "Precio final": "$ 313,30"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120405",
-        "Descripción": "Tapón rosca hembra Polietileno 1 1/4\" Polimex",
-        "Medida": "1 1/4\"",
-        "Precio de lista": "$ 696,13",
-        "IVA": "21%",
-        "Precio final": "$ 617,47"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120505",
-        "Descripción": "Tapón rosca hembra Polietileno 1 1/2\" Polimex",
-        "Medida": "1 1/2\"",
-        "Precio de lista": "$ 1.134,08",
-        "IVA": "21%",
-        "Precio final": "$ 1.005,93"
-      },
-      {
-        "Proveedor": "Deex",
-        "Tipo": "RH",
-        "Código": "POL02-120605",
-        "Descripción": "Tapón rosca hembra Polietileno 2\" Polimex",
-        "Medida": "2\"",
-        "Precio de lista": "$ 1.647,16",
-        "IVA": "21%",
-        "Precio final": "$ 1.461,03"
-      }
-    ]
+  {
+    "id": 4,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-3406",
+    "Descripción": "Tubo Polietileno Polimex 3/4\" K6 x  Mts.",
+    "medida": "3/4",
+    "precio de lista": "$  1,244.36",
+    "IVA": "21%"
   },
-   "Roscas": {
-    "nombre": "ROSCA CON TUERCA": {
-      "productos": [
-        {
-          "Proveedor": "Deex",
-          "código": "POL02-120106",
-          "Descripción": "Rosca con tuerca Polipropileno 1/2\" Polimex",
-          "medida": "1/2\"",
-          "precio de lista": "$ 151,49",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 134,37"
-        },
-        {
-          
-          
-          "Proveedor": "Deex",
-          "código": "POL02-120206",
-          "Descripción": "Rosca con tuerca Polipropileno 3/4\" Polimex",
-          "medida": "3/4\"",
-          "precio de lista": "$ 228,16",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 202,38"
-        },
-        {
-          
-          
-          "Proveedor": "Deex",
-          "código": "POL02-120306",
-          "Descripción": "Rosca con tuerca Polipropileno 1\" Polimex",
-          "medida": "1\"",
-          "precio de lista": "$ 380,83",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 337,80"
-        },
-        {
-          
-          
-          "Proveedor": "Deex",
-          "código": "POL02-120406",
-          "Descripción": "Rosca con tuerca Polipropileno 1 1/4\" Polimex",
-          "medida": "1 1/4\"",
-          "precio de lista": "$ 465,48",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 412,88"
-        },
-        {
-          
-          
-          "Proveedor": "Deex",
-          "código": "POL02-120506",
-          "Descripción": "Rosca con tuerca Polipropileno 1 1/2\" Polimex",
-          "medida": "1 1/2\"",
-          "precio de lista": "$ 818,79",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 726,27"
-        },
-        {
-          
-          
-          "Proveedor": "Deex",
-          "código": "POL02-120606",
-          "Descripción": "Rosca con tuerca Polipropileno 2\" Polimex",
-          "medida": "2\"",
-          "precio de lista": "$ 1.244,62",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 1.103,98"
-        }
-      ]
-    },
-   "nombre": "ROSCA CON TUERCA CON REDUCCIÓN": {
-      "productos": [
-        {
-          "Proveedor": "Deex",
-          "código": "POL02-122106",
-          "Descripción": "Rosca con tuerca con reducción Polipropileno 3/4\" x 1/2\" Polimex",
-          "medida": "3/4\" x 1/2\"",
-          "precio de lista": "$ 215,55",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 191,19"
-        },
-        {
-          "Proveedor": "Deex",
-          "código": "POL02-122206",
-          "Descripción": "Rosca con tuerca con reducción Polipropileno 1\" x 1/2\" Polimex",
-          "medida": "1\" x 1/2\"",
-          "precio de lista": "$ 392,32",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 347,99"
-        },
-        {
-          "Proveedor": "Deex",
-          "código": "POL02-122306",
-          "Descripción": "Rosca con tuerca con reducción Polipropileno 1\" x 3/4\" Polimex",
-          "medida": "1\" x 3/4\"",
-          "precio de lista": "$ 356,99",
-          "IVA": "21%",
-          "Descuento": "",
-          "precio final": "$ 316,65"
-        }
-      ]
-    }
+  {
+    "id": 5,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-3410",
+    "Descripción": "Tubo Polietileno Polimex 3/4\" K10 x  Mts.",
+    "medida": "3/4",
+    "precio de lista": "$  1,792.69",
+    "IVA": "21%"
+  },
+  {
+    "id": 6,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-1004",
+    "Descripción": "Tubo Polietileno Polimex 1\" K4 x  Mts.",
+    "medida": 1,
+    "precio de lista": "$  1,318.61",
+    "IVA": "21%"
+  },
+  {
+    "id": 7,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-1006",
+    "Descripción": "Tubo Polietileno Polimex 1\" K6 x  Mts.",
+    "medida": 1,
+    "precio de lista": "$  2,099.75",
+    "IVA": "21%"
+  },
+  {
+    "id": 8,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-11404",
+    "Descripción": "Tubo Polietileno Polimex 1 1/4\" K4 x  Mts.",
+    "medida": "1 1/4",
+    "precio de lista": "$  2,110.00",
+    "IVA": "21%"
+  },
+  {
+    "id": 9,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-11204",
+    "Descripción": "Tubo Polietileno Polimex 1 1/2\" K4 x  Mts.",
+    "medida": "1 1/2",
+    "precio de lista": "$  3,010.13",
+    "IVA": "21%"
+  },
+  {
+    "id": 10,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Deex",
+    "código": "POL01-2004",
+    "Descripción": "Tubo Polietileno Polimex 2\" K4 x  Mts.",
+    "medida": 2,
+    "precio de lista": "$  5,299.65",
+    "IVA": "21%"
+  },
+  {
+    "id": 11,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 1/2\" K4 x  Mts.",
+    "medida": "1/2",
+    "precio de lista": "$  130.00",
+    "IVA": "21%"
+  },
+  {
+    "id": 12,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 3/4\" K4 x  Mts.",
+    "medida": "3/4",
+    "precio de lista": "$  270.00",
+    "IVA": "21%"
+  },
+  {
+    "id": 13,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 1\" K4 x  Mts.",
+    "medida": 1,
+    "precio de lista": "$  440.00",
+    "IVA": "21%"
+  },
+  {
+    "id": 14,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 1 1/4\" K4 x  Mts.",
+    "medida": "1 1/4",
+    "precio de lista": "$  700.00",
+    "IVA": "21%"
+  },
+  {
+    "id": 15,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 1 1/2\" K4 x  Mts.",
+    "medida": "1 1/2",
+    "precio de lista": "$  740.00",
+    "IVA": ""
+  },
+  {
+    "id": 16,
+    "Categoria": "cañeria",
+    "Nombre": "CAÑERÍAS DE POLIETILENO",
+    "Proveedor": "Salta tubex",
+    "código": "",
+    "Descripción": "Tubo Polietileno Polimex 2\" K4 x  Mts.",
+    "medida": 2,
+    "precio de lista": "$  860.00",
+    "IVA": ""
+  },
+  {
+    "id": 17,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220101",
+    "Descripción": "Enchufe RH polietileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  221.60",
+    "IVA": "21%"
+  },
+  {
+    "id": 18,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220201",
+    "Descripción": "Enchufe RH polietileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  249.32",
+    "IVA": "21%"
+  },
+  {
+    "id": 19,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220301",
+    "Descripción": "Enchufe RH polietileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  403.48",
+    "IVA": "21%"
+  },
+  {
+    "id": 20,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220401",
+    "Descripción": "Enchufe RH polietileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,372.08",
+    "IVA": "21%"
+  },
+  {
+    "id": 21,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220501",
+    "Descripción": "Enchufe RH polietileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,557.47",
+    "IVA": "21%"
+  },
+  {
+    "id": 22,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220601",
+    "Descripción": "Enchufe RH polietileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  2,308.38",
+    "IVA": "21%"
+  },
+  {
+    "id": 23,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220102",
+    "Descripción": "Enchufe RM polietileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  143.74",
+    "IVA": "21%"
+  },
+  {
+    "id": 24,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220202",
+    "Descripción": "Enchufe RM polietileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  217.65",
+    "IVA": "21%"
+  },
+  {
+    "id": 25,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220302",
+    "Descripción": "Enchufe RoM polietileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  312.81",
+    "IVA": "21%"
+  },
+  {
+    "id": 26,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220402",
+    "Descripción": "Enchufe RM polietileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  587.83",
+    "IVA": "21%"
+  },
+  {
+    "id": 27,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220502",
+    "Descripción": "Enchufe RM polietileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  711.41",
+    "IVA": "21%"
+  },
+  {
+    "id": 28,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES ROSCA MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220602",
+    "Descripción": "Enchufe RM polietileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,154.76",
+    "IVA": "21%"
+  },
+  {
+    "id": 29,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220105",
+    "Descripción": "Enchufe doble Tee RH 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  659.82",
+    "IVA": "21%"
+  },
+  {
+    "id": 30,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220205",
+    "Descripción": "Enchufe doble Tee RH 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  1,385.75",
+    "IVA": "21%"
+  },
+  {
+    "id": 31,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220305",
+    "Descripción": "Enchufe doble Tee RH 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  1,546.45",
+    "IVA": "21%"
+  },
+  {
+    "id": 32,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220405",
+    "Descripción": "Enchufe doble Tee RH 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,614.24",
+    "IVA": "21%"
+  },
+  {
+    "id": 33,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220505",
+    "Descripción": "Enchufe doble Tee RH 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,842.44",
+    "IVA": "21%"
+  },
+  {
+    "id": 34,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES TEE ROSCA HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220605",
+    "Descripción": "Enchufe doble Tee RH 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  2,771.68",
+    "IVA": "21%"
+  },
+  {
+    "id": 35,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220106",
+    "Descripción": "Enchufe doble codo 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  245.38",
+    "IVA": "21%"
+  },
+  {
+    "id": 36,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220206",
+    "Descripción": "Enchufe doble codo 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  263.86",
+    "IVA": "21%"
+  },
+  {
+    "id": 37,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220306",
+    "Descripción": "Enchufe doble codo 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  488.18",
+    "IVA": "21%"
+  },
+  {
+    "id": 38,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220406",
+    "Descripción": "Enchufe doble codo 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,074.13",
+    "IVA": "21%"
+  },
+  {
+    "id": 39,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220506",
+    "Descripción": "Enchufe doble codo 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,331.24",
+    "IVA": "21%"
+  },
+  {
+    "id": 40,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CODO",
+    "Proveedor": "Deex",
+    "código": "POL02-220606",
+    "Descripción": "Enchufe doble codo 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,768.54",
+    "IVA": "21%"
+  },
+  {
+    "id": 41,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220107",
+    "Descripción": "Enchufe codo RH 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  262.55",
+    "IVA": "21%"
+  },
+  {
+    "id": 42,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220207",
+    "Descripción": "Enchufe codo RH 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  344.36",
+    "IVA": "21%"
+  },
+  {
+    "id": 43,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220307",
+    "Descripción": "Enchufe codo RH 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  927.65",
+    "IVA": "21%"
+  },
+  {
+    "id": 44,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220407",
+    "Descripción": "Enchufe codo RH 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,662.95",
+    "IVA": "21%"
+  },
+  {
+    "id": 45,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220507",
+    "Descripción": "Enchufe codo RH 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  2,811.06",
+    "IVA": "21%"
+  },
+  {
+    "id": 46,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/HEMBRA",
+    "Proveedor": "Deex",
+    "código": "POL02-220607",
+    "Descripción": "Enchufe codo RH 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  3,801.21",
+    "IVA": "21%"
+  },
+  {
+    "id": 47,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220108",
+    "Descripción": "Enchufe codo RM 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  461.84",
+    "IVA": "21%"
+  },
+  {
+    "id": 48,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220208",
+    "Descripción": "Enchufe codo RM 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  600.63",
+    "IVA": "21%"
+  },
+  {
+    "id": 49,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES CODO R/MACHO",
+    "Proveedor": "Deex",
+    "código": "POL02-220308",
+    "Descripción": "Enchufe codo RM 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  739.31",
+    "IVA": "21%"
+  },
+  {
+    "id": 50,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES R/MACHO CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221103",
+    "Descripción": "Enchufe RM con reducción 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  162.51",
+    "IVA": "21%"
+  },
+  {
+    "id": 51,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES R/MACHO CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221203",
+    "Descripción": "Enchufe RM con reducción 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  279.73",
+    "IVA": "21%"
+  },
+  {
+    "id": 52,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES R/MACHO CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221303",
+    "Descripción": "Enchufe RM con reducción 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  279.73",
+    "IVA": "21%"
+  },
+  {
+    "id": 53,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220103",
+    "Descripción": "Enchufe doble 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  141.10",
+    "IVA": "21%"
+  },
+  {
+    "id": 54,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220203",
+    "Descripción": "Enchufe doble 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  171.47",
+    "IVA": "21%"
+  },
+  {
+    "id": 55,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220303",
+    "Descripción": "Enchufe doble 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  299.86",
+    "IVA": "21%"
+  },
+  {
+    "id": 56,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220403",
+    "Descripción": "Enchufe doble 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  508.12",
+    "IVA": "21%"
+  },
+  {
+    "id": 57,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220503",
+    "Descripción": "Enchufe doble 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  631.68",
+    "IVA": "21%"
+  },
+  {
+    "id": 58,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE",
+    "Proveedor": "Deex",
+    "código": "POL02-220603",
+    "Descripción": "Enchufe doble 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,039.98",
+    "IVA": "21%"
+  },
+  {
+    "id": 59,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221102",
+    "Descripción": "Enchufe doble con reducción 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  165.67",
+    "IVA": "21%"
+  },
+  {
+    "id": 60,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221202",
+    "Descripción": "Enchufe doble con reducción 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  215.95",
+    "IVA": "21%"
+  },
+  {
+    "id": 61,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221302",
+    "Descripción": "Enchufe doble con reducción 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  215.95",
+    "IVA": "21%"
+  },
+  {
+    "id": 62,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221402",
+    "Descripción": "Enchufe doble con reducción 1 1/4\" x 1\" Polimex",
+    "medida": "1 1/4\" x 1",
+    "precio de lista": "$  406.48",
+    "IVA": "21%"
+  },
+  {
+    "id": 63,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221502",
+    "Descripción": "Enchufe doble con reducción 1 1/2\" x 1 1/4\" Polimex",
+    "medida": "1 1/2\" x 1 1/4",
+    "precio de lista": "$  505.33",
+    "IVA": "21%"
+  },
+  {
+    "id": 64,
+    "Categoria": "enchufe",
+    "Nombre": "ENCHUFES DOBLE CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-221602",
+    "Descripción": "Enchufe doble con reducción 2\" x 1 1/2\" Polimex",
+    "medida": "2\" x 1 1/2",
+    "precio de lista": "$  858.48",
+    "IVA": "21%"
+  },
+  {
+    "id": 65,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120101",
+    "Descripción": "Codo HH 90° Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  254.71",
+    "IVA": "21%"
+  },
+  {
+    "id": 66,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120201",
+    "Descripción": "Codo HH 90° Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  417.35",
+    "IVA": "21%"
+  },
+  {
+    "id": 67,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120301",
+    "Descripción": "Codo HH 90° Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  967.36",
+    "IVA": "21%"
+  },
+  {
+    "id": 68,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120401",
+    "Descripción": "Codo HH 90° Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,382.86",
+    "IVA": "21%"
+  },
+  {
+    "id": 69,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120501",
+    "Descripción": "Codo HH 90° Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,990.09",
+    "IVA": "21%"
+  },
+  {
+    "id": 70,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120601",
+    "Descripción": "Codo HH 90° Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  3,042.18",
+    "IVA": "21%"
+  },
+  {
+    "id": 71,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120108",
+    "Descripción": "Codo MH 90° Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  276.61",
+    "IVA": "21%"
+  },
+  {
+    "id": 72,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120208",
+    "Descripción": "Codo MH 90° Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  487.72",
+    "IVA": "21%"
+  },
+  {
+    "id": 73,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120308",
+    "Descripción": "Codo MH 90° Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  830.03",
+    "IVA": "21%"
+  },
+  {
+    "id": 74,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120408",
+    "Descripción": "Codo MH 90° Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,963.30",
+    "IVA": "21%"
+  },
+  {
+    "id": 75,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120508",
+    "Descripción": "Codo MH 90° Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  2,876.32",
+    "IVA": "21%"
+  },
+  {
+    "id": 76,
+    "Categoria": "codos",
+    "Nombre": "CODOS MH 90°",
+    "Proveedor": "Deex",
+    "código": "POL02-120608",
+    "Descripción": "Codo MH 90° Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  4,590.94",
+    "IVA": "21%"
+  },
+  {
+    "id": 77,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121211",
+    "Descripción": "Codo HH 45° Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  542.45",
+    "IVA": "21%"
+  },
+  {
+    "id": 78,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121212",
+    "Descripción": "Codo HH 45° Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  737.93",
+    "IVA": "21%"
+  },
+  {
+    "id": 79,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121213",
+    "Descripción": "Codo HH 45° Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  1,371.61",
+    "IVA": "21%"
+  },
+  {
+    "id": 80,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121214",
+    "Descripción": "Codo HH 45° Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  2,406.43",
+    "IVA": "21%"
+  },
+  {
+    "id": 81,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121215",
+    "Descripción": "Codo HH 45° Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  3,861.05",
+    "IVA": "21%"
+  },
+  {
+    "id": 82,
+    "Categoria": "codos",
+    "Nombre": "CODOS HH 45°",
+    "Proveedor": "Deex",
+    "código": "POL02-121216",
+    "Descripción": "Codo HH 45° Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  7,727.38",
+    "IVA": "21%"
+  },
+  {
+    "id": 83,
+    "Categoria": "codos",
+    "Nombre": "CODO HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-120812",
+    "Descripción": "Codo HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  814.57",
+    "IVA": "21%"
+  },
+  {
+    "id": 84,
+    "Categoria": "codos",
+    "Nombre": "CODO HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121012",
+    "Descripción": "Codo HH con reducción Polipropileno 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  1,020.95",
+    "IVA": "21%"
+  },
+  {
+    "id": 85,
+    "Categoria": "codos",
+    "Nombre": "CODO HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121112",
+    "Descripción": "Codo HH con reducción Polipropileno 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  1,139.81",
+    "IVA": "21%"
+  },
+  {
+    "id": 86,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120102",
+    "Descripción": "Tee HH Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  342.29",
+    "IVA": "21%"
+  },
+  {
+    "id": 87,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120202",
+    "Descripción": "Tee HH Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  564.34",
+    "IVA": "21%"
+  },
+  {
+    "id": 88,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120302",
+    "Descripción": "Tee HH Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  1,161.70",
+    "IVA": "21%"
+  },
+  {
+    "id": 89,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120402",
+    "Descripción": "Tee HH Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,647.16",
+    "IVA": "21%"
+  },
+  {
+    "id": 90,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120502",
+    "Descripción": "Tee HH Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  2,267.36",
+    "IVA": "21%"
+  },
+  {
+    "id": 91,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH",
+    "Proveedor": "Deex",
+    "código": "POL02-120602",
+    "Descripción": "Tee HH Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  4,121.05",
+    "IVA": "21%"
+  },
+  {
+    "id": 92,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-120811",
+    "Descripción": "Tee HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  1,247.75",
+    "IVA": "21%"
+  },
+  {
+    "id": 93,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121011",
+    "Descripción": "Tee HH con reducción Polipropileno 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  1,361.90",
+    "IVA": "21%"
+  },
+  {
+    "id": 94,
+    "Categoria": "codos Tee",
+    "Nombre": "TEE HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121111",
+    "Descripción": "Tee HH con reducción Polipropileno 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  1,329.03",
+    "IVA": "21%"
+  },
+  {
+    "id": 95,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120104",
+    "Descripción": "Cupla RH Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  206.24",
+    "IVA": "21%"
+  },
+  {
+    "id": 96,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120204",
+    "Descripción": "Cupla RH Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  406.39",
+    "IVA": "21%"
+  },
+  {
+    "id": 97,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120304",
+    "Descripción": "Cupla RH Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  691.81",
+    "IVA": "21%"
+  },
+  {
+    "id": 98,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120404",
+    "Descripción": "Cupla RH Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  1,199.72",
+    "IVA": "21%"
+  },
+  {
+    "id": 99,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120504",
+    "Descripción": "Cupla RH Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,520.20",
+    "IVA": "21%"
+  },
+  {
+    "id": 100,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120604",
+    "Descripción": "Cupla RH Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  2,046.24",
+    "IVA": "21%"
+  },
+  {
+    "id": 101,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-120710",
+    "Descripción": "Cupla HH con reducción Polipropileno 1/2\" x 3/8\" Polimex",
+    "medida": "1/2\" x 3/8",
+    "precio de lista": "$  331.37",
+    "IVA": "21%"
+  },
+  {
+    "id": 102,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-120810",
+    "Descripción": "Cupla HH con reducción Polipropileno 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  331.37",
+    "IVA": "21%"
+  },
+  {
+    "id": 103,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121010",
+    "Descripción": "Cupla HH con reducción Polipropileno 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  586.22",
+    "IVA": "21%"
+  },
+  {
+    "id": 104,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA HH CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121110",
+    "Descripción": "Cupla HH con reducción Polipropileno 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  689.44",
+    "IVA": "21%"
+  },
+  {
+    "id": 105,
+    "Categoria": "cuplas",
+    "Nombre": "CUPLA MH",
+    "Proveedor": "Deex",
+    "código": "POL02-121104",
+    "Descripción": "Cupla MH Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  282.85",
+    "IVA": "21%"
+  },
+  {
+    "id": 106,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-120809",
+    "Descripción": "Buje reducción Polipropileno 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  151.49",
+    "IVA": "21%"
+  },
+  {
+    "id": 107,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121009",
+    "Descripción": "Buje reducción Polipropileno 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  298.50",
+    "IVA": "21%"
+  },
+  {
+    "id": 108,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121809",
+    "Descripción": "Buje reducción Polipropileno 1 1/2\" x 1\" Polimex",
+    "medida": "1 1/2\" x 1",
+    "precio de lista": "$  601.97",
+    "IVA": "21%"
+  },
+  {
+    "id": 109,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-121909",
+    "Descripción": "Buje reducción Polipropileno 1 1/2\" x 3/4\" Polimex",
+    "medida": "1 1/2\" x 3/4",
+    "precio de lista": "$  630.05",
+    "IVA": "21%"
+  },
+  {
+    "id": 110,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-122009",
+    "Descripción": "Buje reducción Polipropileno 1 1/2\" x 1/2\" Polimex",
+    "medida": "1 1/2\" x 1/2",
+    "precio de lista": "$  683.15",
+    "IVA": "21%"
+  },
+  {
+    "id": 111,
+    "Categoria": "Bujes",
+    "Nombre": "BUJES DE REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-122309",
+    "Descripción": "Buje reducción Polipropileno 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  221.87",
+    "IVA": "21%"
+  },
+  {
+    "id": 112,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120106",
+    "Descripción": "Rosca con tuerca Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  151.49",
+    "IVA": "21%"
+  },
+  {
+    "id": 113,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120206",
+    "Descripción": "Rosca con tuerca Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  228.16",
+    "IVA": "21%"
+  },
+  {
+    "id": 114,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120306",
+    "Descripción": "Rosca con tuerca Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  380.83",
+    "IVA": "21%"
+  },
+  {
+    "id": 115,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120406",
+    "Descripción": "Rosca con tuerca Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  465.48",
+    "IVA": "21%"
+  },
+  {
+    "id": 116,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120506",
+    "Descripción": "Rosca con tuerca Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  818.79",
+    "IVA": "21%"
+  },
+  {
+    "id": 117,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA",
+    "Proveedor": "Deex",
+    "código": "POL02-120606",
+    "Descripción": "Rosca con tuerca Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,244.62",
+    "IVA": "21%"
+  },
+  {
+    "id": 118,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-122106",
+    "Descripción": "Rosca con tuerca con reducción Polipropileno 3/4\" x 1/2\" Polimex",
+    "medida": "3/4\" x 1/2",
+    "precio de lista": "$  215.55",
+    "IVA": "21%"
+  },
+  {
+    "id": 119,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-122206",
+    "Descripción": "Rosca con tuerca con reducción Polipropileno 1\" x 1/2\" Polimex",
+    "medida": "1\" x 1/2",
+    "precio de lista": "$  392.32",
+    "IVA": "21%"
+  },
+  {
+    "id": 120,
+    "Categoria": "Roscas",
+    "Nombre": "ROSCA CON TUERCA CON REDUCCIÓN",
+    "Proveedor": "Deex",
+    "código": "POL02-122306",
+    "Descripción": "Rosca con tuerca con reducción Polipropileno 1\" x 3/4\" Polimex",
+    "medida": "1\" x 3/4",
+    "precio de lista": "$  356.99",
+    "IVA": "21%"
+  },
+  {
+    "id": 121,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120118",
+    "Descripción": "Cruz Polipropileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  1,030.35",
+    "IVA": "21%"
+  },
+  {
+    "id": 122,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120218",
+    "Descripción": "Cruz Polipropileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  1,952.96",
+    "IVA": "21%"
+  },
+  {
+    "id": 123,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120318",
+    "Descripción": "Cruz Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  2,764.91",
+    "IVA": "21%"
+  },
+  {
+    "id": 124,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120418",
+    "Descripción": "Cruz Polipropileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  3,595.01",
+    "IVA": "21%"
+  },
+  {
+    "id": 125,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120518",
+    "Descripción": "Cruz Polipropileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  4,977.93",
+    "IVA": "21%"
+  },
+  {
+    "id": 126,
+    "Categoria": "CRUZ",
+    "Nombre": "CRUZ HHHH",
+    "Proveedor": "Deex",
+    "código": "POL02-120618",
+    "Descripción": "Cruz Polipropileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  9,734.82",
+    "IVA": "21%"
+  },
+  {
+    "id": 127,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120107",
+    "Descripción": "Tapón rosca macho Polietileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  157.76",
+    "IVA": "21%"
+  },
+  {
+    "id": 128,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120207",
+    "Descripción": "Tapón rosca macho Polietileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  184.36",
+    "IVA": "21%"
+  },
+  {
+    "id": 129,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120307",
+    "Descripción": "Tapón rosca macho Polipropileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  326.43",
+    "IVA": "21%"
+  },
+  {
+    "id": 130,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120407",
+    "Descripción": "Tapón rosca macho Polietileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  465.48",
+    "IVA": "21%"
+  },
+  {
+    "id": 131,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120507",
+    "Descripción": "Tapón rosca macho Polietileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  530.26",
+    "IVA": "21%"
+  },
+  {
+    "id": 132,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RM",
+    "Proveedor": "Deex",
+    "código": "POL02-120607",
+    "Descripción": "Tapón rosca macho Polietileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,354.35",
+    "IVA": "21%"
+  },
+  {
+    "id": 133,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120105",
+    "Descripción": "Tapón rosca hembra Polietileno 1/2\" Polimex",
+    "medida": "1/2",
+    "precio de lista": "$  124.95",
+    "IVA": "21%"
+  },
+  {
+    "id": 134,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120205",
+    "Descripción": "Tapón rosca hembra Polietileno 3/4\" Polimex",
+    "medida": "3/4",
+    "precio de lista": "$  179.67",
+    "IVA": "21%"
+  },
+  {
+    "id": 135,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120305",
+    "Descripción": "Tapón rosca hembra Polietileno 1\" Polimex",
+    "medida": 1,
+    "precio de lista": "$  353.21",
+    "IVA": "21%"
+  },
+  {
+    "id": 136,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120405",
+    "Descripción": "Tapón rosca hembra Polietileno 1 1/4\" Polimex",
+    "medida": "1 1/4",
+    "precio de lista": "$  696.13",
+    "IVA": "21%"
+  },
+  {
+    "id": 137,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120505",
+    "Descripción": "Tapón rosca hembra Polietileno 1 1/2\" Polimex",
+    "medida": "1 1/2",
+    "precio de lista": "$  1,134.08",
+    "IVA": "21%"
+  },
+  {
+    "id": 138,
+    "Categoria": "TAPONES",
+    "Nombre": "TAPÓN RH",
+    "Proveedor": "Deex",
+    "código": "POL02-120605",
+    "Descripción": "Tapón rosca hembra Polietileno 2\" Polimex",
+    "medida": 2,
+    "precio de lista": "$  1,647.16",
+    "IVA": "21%"
   }
-  
-
-  
-
+]

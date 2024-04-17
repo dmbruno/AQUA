@@ -1,25 +1,28 @@
-
+import { Link, useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
-import './InsumosList.css';
-import Header from "../Header"
-import { Link } from 'react-router-dom';
-
+import "../../componentes/Insumos List/InsumosList.css"
 
 const InsumosList = () => {
-
-    const categorias = Object.keys(itemsData);
-    console.log("categorias: ", categorias);
     
+    const { categoria } = useParams(); // Obtener el parámetro de la URL
 
+    // Filtrar los productos por la categoría seleccionada
+    const productosCategoria = itemsData.filter(item => item.categoria === categoria);
+
+    // Obtener categorías únicas
+    const categoriasUnicas = new Set();
+    itemsData.forEach(item => {
+        categoriasUnicas.add(item.categoria);
+    });
+    const categoriasArray = Array.from(categoriasUnicas);
 
     return (
         <>
-            <Header />
             <div className='container'>
                 <div className='category-container'>
                     <h2 className='category-title'>Categorías</h2>
                     <ul className='category-list'>
-                    {categorias.map(categoria => (
+                        {categoriasArray.map(categoria => (
                             <li key={categoria} className='category-item'>
                                 <Link to={`/insumos/${categoria}`} className='category-link'>
                                     {categoria}
@@ -30,12 +33,13 @@ const InsumosList = () => {
                 </div>
             </div>
         </>
-
     );
 };
 
-
 export default InsumosList;
+
+
+
 
 
 

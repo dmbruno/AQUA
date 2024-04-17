@@ -2,36 +2,49 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
 
-const InsumosDetail = () => {
-    const { nombre } = useParams(); // Obtener el nombre de la categoría de la URL
-    console.log("nombre", nombre);
+const InsumoDetail = () => {
+    const { categoriaId } = useParams(); // Obtener la categoriaId de los parámetros de la URL
 
-    // Obtener los productos de la categoría específica desde el JSON
-    const categoria = itemsData[nombre];
-    console.log("categoria", categoria);
+    // Filtrar los productos por la categoría seleccionada
+    const productosCategoria = itemsData.filter(item => item.categoria === categoriaId);
 
-    // Verificar si la categoría existe
-    if (!categoria) {
-        return <div>La categoría {nombre} no existe</div>;
-    }
+    // Crear un conjunto para almacenar los nombres únicos de los productos
+    const productosUnicos = new Set();
 
-    // Obtener solo los nombres de los productos de la categoría
-    const nombresProductos = categoria.productos.map(producto => producto.Nombre);
+    // Iterar sobre los productos filtrados y agregar los productos únicos al conjunto
+    productosCategoria.forEach(producto => {
+        productosUnicos.add(JSON.stringify(producto)); // Convertir el objeto a cadena para que el conjunto considere cada producto único
+    });
 
-    // Renderizar la lista de nombres de productos
+    // Convertir el conjunto a un array y mapear sobre él para mostrar los productos únicos
+    const productosUnicosArray = Array.from(productosUnicos).map(productoString => JSON.parse(productoString));
+
     return (
-        <div className="insumos-detail-container">
-            <h2>Productos en la categoría {nombre}</h2>
+        <div>
+            <h2>Categoría: {categoriaId}</h2>
+            <h3>Productos:</h3>
             <ul>
-                {nombresProductos.map((nombreProducto, index) => (
-                    <li key={index}>{nombreProducto}</li>
+                {productosUnicosArray.map(producto => (
+                    <li key={producto.codigo}>
+                        <strong>Nombre:</strong> {producto.nombre}<br />
+                        <strong>Proveedor:</strong> {producto.proveedor}<br />
+                        <strong>Código:</strong> {producto.codigo}<br />
+                        <strong>Descripción:</strong> {producto.descripcion}<br />
+                        
+                    </li>
                 ))}
             </ul>
         </div>
     );
 };
 
-export default InsumosDetail;
+export default InsumoDetail;
+
+
+
+
+
+
 
 
 
