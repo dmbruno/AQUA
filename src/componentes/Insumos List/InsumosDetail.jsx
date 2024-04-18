@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
+import "./InsumosDetail.css"
 
 const InsumoDetail = () => {
     const { categoriaId } = useParams(); // Obtener la categoriaId de los parámetros de la URL
@@ -20,16 +21,14 @@ const InsumoDetail = () => {
     const productosUnicosArray = Array.from(productosUnicos).map(productoString => JSON.parse(productoString));
 
     return (
-        <div>
-            <h2>Categoría: {categoriaId}</h2>
-            <h3>Productos:</h3>
-            <ul>
+        <div  className="insumo-detail-container">
+            <h2 className="categoria-title">Categoría: {categoriaId}</h2>
+            <h3 className="productos-title">Productos</h3>
+            <ul className="productos-list">
                 {productosUnicosArray.map(producto => (
-                    <li key={producto.codigo}>
-                        <strong>Nombre:</strong> {producto.nombre}<br />
-                        <strong>Proveedor:</strong> {producto.proveedor}<br />
-                        <strong>Código:</strong> {producto.codigo}<br />
-                        <strong>Descripción:</strong> {producto.descripcion}<br />
+                    <li key={producto.codigo} className="producto-item">
+                        <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
+                        <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
                         
                     </li>
                 ))}
