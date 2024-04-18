@@ -2,8 +2,9 @@ import { Link, useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
 import "../../componentes/Insumos List/InsumosList.css"
 
+
 const InsumosList = () => {
-    
+
     const { categoria } = useParams(); // Obtener el parámetro de la URL
 
     // Filtrar los productos por la categoría seleccionada

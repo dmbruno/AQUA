@@ -1,0 +1,33 @@
+
+.proveedores-container {
+    text-align: center; /* Centrar contenido */
+    margin-bottom: 20px; /* Espaciado inferior */
+    width: 90%;
+}
+
+.proveedores-title {
+    margin-bottom: 10px; 
+    font-size: 1.25rem;/* Espaciado inferior para el título */
+}
+
+.proveedores-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar botones horizontalmente */
+    gap: 10px; /* Espaciado entre botones */
+    
+}
+
+.proveedores-button {
+    padding: 10px 20px; /* Espaciado interno de los botones */
+    border: none; /* Quitar bordes */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    font-size: 1.1875rem;
+}
+
+.proveedores-button:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el mouse */
+}

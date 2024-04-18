@@ -3,12 +3,13 @@ import Inicio from './componentes/Inicio/Inicio';
 import InsumosList from './componentes/Insumos List/InsumosList';
 import InsumosDetail from './componentes/Insumos List/InsumosDetail';
 
+
 import Header from "./componentes/Header"
 
 function App() {
   return (
     <BrowserRouter>
-
+      
       <Header/>
 
         <Routes>
