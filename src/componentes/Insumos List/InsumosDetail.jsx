@@ -31,9 +31,9 @@ const InsumoDetail = () => {
     return (
         <div className="insumo-detail-container">
             <Proveedores data={itemsData} setProveedorSeleccionado={setProveedorSeleccionado} />
-            <h2 className="categoria-title">Categoría: {categoriaId}</h2>
             {proveedorSeleccionado && ( // Renderizar solo si se ha seleccionado un proveedor
                 <>
+                    <h2 className="categoria-title">Categoría: {categoriaId}</h2>
                     <h3 className="productos-title">Productos</h3>
                     <ul className="productos-list">
                         {productosFiltradosPorProveedor.map(producto => (
