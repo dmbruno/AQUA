@@ -2,7 +2,7 @@
 .proveedores-container {
     text-align: center; /* Centrar contenido */
     margin-bottom: 20px; /* Espaciado inferior */
-    width: 90%;
+    width: 70%;
 }
 
 .proveedores-title {
@@ -19,13 +19,14 @@
 }
 
 .proveedores-button {
-    padding: 10px 20px; /* Espaciado interno de los botones */
+    padding: 5px 10px; /* Espaciado interno de los botones */
     border: none; /* Quitar bordes */
     background-color: #007bff; /* Color de fondo */
     color: #fff; /* Color del texto */
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cambiar cursor al pasar el mouse */
     font-size: 1.1875rem;
+    font-weight: bold;
 }
 
 .proveedores-button:hover {

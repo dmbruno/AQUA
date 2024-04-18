@@ -1,7 +1,7 @@
 import React from 'react';
 import './Proveedores.css'
 
-const Proveedores = ({ data }) => {
+const Proveedores = ({ data, setProveedorSeleccionado }) => {
     // Extraer nombres únicos de los proveedores
     const proveedoresUnicos = Array.from(new Set(data.map(item => item.proveedor)));
 
@@ -11,7 +11,7 @@ const Proveedores = ({ data }) => {
             <div className="proveedores-buttons">
                 {/* Mapear sobre los nombres únicos de los proveedores y renderizar botones para cada uno */}
                 {proveedoresUnicos.map(proveedor => (
-                    <button key={proveedor} className="proveedores-button" onClick={() => console.log(`Proveedor seleccionado: ${proveedor}`)}>
+                    <button key={proveedor} className="proveedores-button" onClick={() => setProveedorSeleccionado(proveedor)}>
                         {proveedor}
                     </button>
                 ))}
