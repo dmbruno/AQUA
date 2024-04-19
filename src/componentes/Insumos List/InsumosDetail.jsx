@@ -4,12 +4,18 @@ import { useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
 import "./InsumosDetail.css"
 import Proveedores from '../Proveedores/Proveedores';
+import { Link } from 'react-router-dom';
+import ProductoFinal from '../ProductoFinal';
+
+
 
 const InsumoDetail = () => {
     const { categoriaId } = useParams(); // Obtener la categoriaId de los parámetros de la URL
 
     // Estado para almacenar el proveedor seleccionado
     const [proveedorSeleccionado, setProveedorSeleccionado] = useState(null);
+    const [productoSeleccionado, setProductoSeleccionado] = useState(null);
+
 
     // Filtrar los productos por la categoría seleccionada
     const productosCategoria = itemsData.filter(item => item.categoria === categoriaId);
@@ -28,6 +34,12 @@ const InsumoDetail = () => {
     // Filtrar los productos según el proveedor seleccionado
     const productosFiltradosPorProveedor = proveedorSeleccionado ? productosUnicosArray.filter(producto => producto.proveedor === proveedorSeleccionado) : productosUnicosArray;
 
+    const handleProductoSeleccionado = (producto) => {
+        setProductoSeleccionado(producto);
+        
+        
+    };
+
     return (
         <div className="insumo-detail-container">
             <Proveedores data={itemsData} setProveedorSeleccionado={setProveedorSeleccionado} />
@@ -37,14 +49,16 @@ const InsumoDetail = () => {
                     <h3 className="productos-title">Productos</h3>
                     <ul className="productos-list">
                         {productosFiltradosPorProveedor.map(producto => (
-                            <li key={producto.codigo} className="producto-item">
+                            <Link key={producto.id} to={`/producto/${producto.id}`} className="producto-item" onClick={() => handleProductoSeleccionado(producto)}>
                                 <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
                                 <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
-                            </li>
+                            </Link>
                         ))}
                     </ul>
                 </>
             )}
+            {productoSeleccionado ? <ProductoFinal producto={productoSeleccionado} /> : <h2>no hay stock</h2>}
+            
         </div>
     );
 };
