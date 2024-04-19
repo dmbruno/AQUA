@@ -22,7 +22,7 @@ const Contador = () => {
                 <span className="counter-value">{count}</span>
                 <button onClick={increment} className="counter-btn">+</button>
             </div>
-            <button className="confirm-btn">Confirmar compra</button>
+            <button className="confirm-btn">Enviar a Presupuesto</button>
         </div>
     );
 };
