@@ -9,10 +9,10 @@ const ProductoFinal = () => {
     const { productId } = useParams();
 
 
-    // Convertir el productId a un número entero
+    
     const id = parseInt(productId);
 
-    // Buscar el producto correspondiente en el array de datos
+    
     const productoFinal = itemsData.find(producto => producto.id === id);
 
 
