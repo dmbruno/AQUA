@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import itemsData from '../data/mock_data.json';
 import "./ProductoFinal.css"
 import Contador from './Contador';
+import Presupuesto from './Presupuesto';
 
 const ProductoFinal = () => {
     const { productId } = useParams();
@@ -21,6 +22,7 @@ const ProductoFinal = () => {
 
     return (
         <div className="producto-final-container">
+            
             <div className="card">
                 <div className="card-body">
                     <h5 className="card-title">{productoFinal.nombre}</h5>
@@ -31,8 +33,9 @@ const ProductoFinal = () => {
                     <p className="card-text">Precio: {productoFinal.precio}</p>
                 </div>
                 <div className='contador-container'>
-                    <Contador />
+                    <Contador item={productoFinal} />
                 </div>
+                <Presupuesto /> 
             </div>
             <div>
             </div>
