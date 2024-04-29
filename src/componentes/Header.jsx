@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
+import { PresupuestoContext } from '../Context/PresupuestoContext';
 
+const Header = () => {
+    const { PresupuestoItem } = useContext(PresupuestoContext); // Cambia "item" a "PresupuestoItem"
 
+    // Calcula la cantidad total de items sumando la cantidad de cada item en PresupuestoItem
+    const itemCount = PresupuestoItem.reduce((total, item) => total + item.cantidad, 0);
 
-
-const Header = ({ itemCount }) => {
     return (
         <header className="header-container">
             <div className="header-content">

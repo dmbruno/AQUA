@@ -3,17 +3,12 @@ import { useParams } from 'react-router-dom';
 import itemsData from '../data/mock_data.json';
 import "./ProductoFinal.css"
 import Contador from './Contador';
-import Presupuesto from './Presupuesto';
 import Header from './Header';
 
 const ProductoFinal = () => {
+
     const { productId } = useParams();
-
-
-
     const id = parseInt(productId);
-
-
     const productoFinal = itemsData.find(producto => producto.id === id);
 
 

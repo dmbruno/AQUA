@@ -25,7 +25,7 @@ const InsumosList = () => {
         <Header/>
             <div className='container'>
                 <div className='category-container'>
-                    <h2 className='category-title'>Categorías</h2>
+                    <h2 className='category-title'>Insumos por Categorias</h2>
                     <ul className='category-list'>
                         {categoriasArray.map(categoria => (
                             <li key={categoria} className='category-item'>

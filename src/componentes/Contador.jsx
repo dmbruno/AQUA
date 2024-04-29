@@ -4,6 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { PresupuestoContext } from '../Context/PresupuestoContext';
 
 const Contador = ({ item }) => {
+    
     const { productId } = useParams();
     const [count, setCount] = useState(0);
     const { addToCart } = useContext(PresupuestoContext);
@@ -25,8 +26,6 @@ const Contador = ({ item }) => {
             cantidad: count,
         };
         addToCart(newItem);
-
-        // Navegar a la pantalla de Presupuesto
         navigate('/presupuesto');
     };
 
@@ -38,8 +37,6 @@ const Contador = ({ item }) => {
             cantidad: count,
         };
         addToCart(newItem);
-
-        // Navegar de regreso a InsumosList
         navigate('/insumos');
     };
 
