@@ -23,8 +23,8 @@ const ProductoFinal = () => {
                 <div className="card">
                     <div className="card-body">
                         <h5 className="card-title">{productoFinal.nombre}</h5>
-                        <p className="card-text">Descripcion: {productoFinal.descripcion}</p>
-                        <p className="card-text">Codigo: {productoFinal.codigo}</p>
+                        <p className="card-text">{productoFinal.descripcion}</p>
+                        <p className="card-text">Cod: {productoFinal.codigo}</p>
                         <p className="card-text">Proveedor: {productoFinal.proveedor}</p>
                         <p className="card-text">Categoria: {productoFinal.categoria}</p>
                         <p className="card-text">Precio: {productoFinal.precio}</p>
@@ -32,8 +32,6 @@ const ProductoFinal = () => {
                     <div className='contador-container'>
                         <Contador item={productoFinal} />
                     </div>
-                </div>
-                <div>
                 </div>
             </div>
         </>

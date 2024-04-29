@@ -49,10 +49,10 @@ const Contador = ({ item }) => {
             </div>
             <div className='container-btn'>
                 <div className='btnEnviar'>
-                    <button className="confirm-btn" onClick={agregarYSeguirComprando}>Agregar y Seguir Comprando</button>
+                    <button className="confirm-btnA" onClick={agregarYSeguirComprando}>Enviar y continuar...</button>
                 </div>
                 <div className='btnSeguir'>
-                    <button className="confirm-btn" onClick={enviarAPresupuesto}>Enviar a Presupuesto</button>
+                    <button className="confirm-btnE" onClick={enviarAPresupuesto}>Enviar a Presupuesto</button>
                 </div>
             </div>
         </div>

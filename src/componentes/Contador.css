@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px 0px;
 }
 
 .counter {
@@ -33,17 +34,32 @@
     
 }
 
-.confirm-btn {
+.confirm-btnA {
+    border: 1px solid black;
+    color: black;
+    font-size: 10px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.confirm-btnE {
     background-color: #007bff;
     color: #fff;
-    font-size: 1rem;
+    font-size: 10px;
     padding: 10px 20px;
-    font-weight: bold;
+    font-weight: bolder;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.confirm-btn:hover {
+.confirm-btnA:hover {
+    background-color: #d5e3f1;
+}
+
+.confirm-btnE:hover {
     background-color: #0056b3;
 }
 

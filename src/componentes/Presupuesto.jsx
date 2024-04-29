@@ -6,21 +6,27 @@ import Header from './Header';
 const Presupuesto = () => {
     const { PresupuestoItem } = useContext(PresupuestoContext);
 
+    const calcularTotal = (item) =>{
+        return item.precio * item.cantidad;
+
+    }
+
     return (
 
         <>
         <Header/>
-            <div className="presupuesto-container"> {/* Aplica la clase del contenedor */}
-                <h2 className="presupuesto-title">Presupuesto</h2> {/* Aplica la clase del título */}
-                <ul className="presupuesto-list"> {/* Aplica la clase de la lista */}
+            <div className="presupuesto-container"> 
+                <h2 className="presupuesto-title">Presupuesto</h2> 
+                <ul className="presupuesto-list"> 
                     {PresupuestoItem.map(item => (
-                        <li key={item.id} className="presupuesto-item"> {/* Aplica la clase del elemento de la lista */}
+                        <li key={item.id} className="presupuesto-item"> 
                             <div>
                                 <span>{item.nombre}</span>
                                 <br />
                                 <span>Cantidad: {item.cantidad}</span>
                                 <span>Precio: {item.precio}</span>
                             </div>
+                            
                         </li>
                     ))}
                 </ul>
