@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { PresupuestoContext } from '../Context/PresupuestoContext';
 import './Presupuesto.css'; // Importa el archivo CSS de estilos
 import Header from './Header';
+import Footer from './Footer/Footer';
 
 const Presupuesto = () => {
     const { PresupuestoItem } = useContext(PresupuestoContext);
@@ -31,6 +32,7 @@ const Presupuesto = () => {
                     ))}
                 </ul>
             </div>
+            <Footer/>
         </>
     );
 };

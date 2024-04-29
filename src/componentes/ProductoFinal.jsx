@@ -4,6 +4,7 @@ import itemsData from '../data/mock_data.json';
 import "./ProductoFinal.css"
 import Contador from './Contador';
 import Header from './Header';
+import Footer from './Footer/Footer';
 
 const ProductoFinal = () => {
 
@@ -34,6 +35,7 @@ const ProductoFinal = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };

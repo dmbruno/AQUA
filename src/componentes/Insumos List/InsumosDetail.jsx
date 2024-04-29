@@ -7,6 +7,7 @@ import Proveedores from '../Proveedores/Proveedores';
 import { Link } from 'react-router-dom';
 import ProductoFinal from '../ProductoFinal';
 import Header from "../../componentes/Header"
+import Footer from '../Footer/Footer';
 
 
 
@@ -54,9 +55,10 @@ const InsumoDetail = () => {
                         </ul>
                     </>
                 )}
-                {productoSeleccionado ? <ProductoFinal producto={productoSeleccionado} /> : <h2>no hay stock</h2>}
+                {productoSeleccionado ? <ProductoFinal producto={productoSeleccionado} /> : null}
 
             </div>
+            <Footer/>
         </>
     );
 };
