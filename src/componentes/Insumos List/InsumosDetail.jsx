@@ -6,6 +6,7 @@ import "./InsumosDetail.css"
 import Proveedores from '../Proveedores/Proveedores';
 import { Link } from 'react-router-dom';
 import ProductoFinal from '../ProductoFinal';
+import Header from "../../componentes/Header"
 
 
 
@@ -36,30 +37,33 @@ const InsumoDetail = () => {
 
     const handleProductoSeleccionado = (producto) => {
         setProductoSeleccionado(producto);
-        
-        
+
+
     };
 
     return (
-        <div className="insumo-detail-container">
-            <Proveedores data={itemsData} setProveedorSeleccionado={setProveedorSeleccionado} />
-            {proveedorSeleccionado && ( // Renderizar solo si se ha seleccionado un proveedor
-                <>
-                    <h2 className="categoria-title">Categoría: {categoriaId}</h2>
-                    <h3 className="productos-title">Productos</h3>
-                    <ul className="productos-list">
-                        {productosFiltradosPorProveedor.map(producto => (
-                            <Link key={producto.id} to={`/producto/${producto.id}`} className="producto-item" onClick={() => handleProductoSeleccionado(producto)}>
-                                <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
-                                <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
-                            </Link>
-                        ))}
-                    </ul>
-                </>
-            )}
-            {productoSeleccionado ? <ProductoFinal producto={productoSeleccionado} /> : <h2>no hay stock</h2>}
-            
-        </div>
+        <>
+            <Header />
+            <div className="insumo-detail-container">
+                <Proveedores data={itemsData} setProveedorSeleccionado={setProveedorSeleccionado} />
+                {proveedorSeleccionado && ( // Renderizar solo si se ha seleccionado un proveedor
+                    <>
+                        <h2 className="categoria-title">Categoría: {categoriaId}</h2>
+                        <h3 className="productos-title">Productos</h3>
+                        <ul className="productos-list">
+                            {productosFiltradosPorProveedor.map(producto => (
+                                <Link key={producto.id} to={`/producto/${producto.id}`} className="producto-item" onClick={() => handleProductoSeleccionado(producto)}>
+                                    <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
+                                    <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
+                                </Link>
+                            ))}
+                        </ul>
+                    </>
+                )}
+                {productoSeleccionado ? <ProductoFinal producto={productoSeleccionado} /> : <h2>no hay stock</h2>}
+
+            </div>
+        </>
     );
 };
 

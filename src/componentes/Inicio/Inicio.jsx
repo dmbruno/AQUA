@@ -7,7 +7,7 @@ const Inicio = () => {
 
     return (
         <div className="inicio-container">
-            <h1 className="titulo">Presupuestos de Riego y Paisajismo</h1>
+            <h1 className="titulo">AQUA</h1>
             <p className="descripcion">
                 Bienvenido a nuestra aplicación. Aquí puedes generar presupuestos para proyectos de riego por aspersión y diseño de paisajes.
             </p>

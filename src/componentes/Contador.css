@@ -46,3 +46,16 @@
 .confirm-btn:hover {
     background-color: #0056b3;
 }
+
+.container-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnEnviar{
+    margin: 15px;    
+}
+
+.btnSeguir{
+    margin: 15px;  
+}

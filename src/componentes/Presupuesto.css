@@ -1,0 +1,36 @@
+.presupuesto-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.presupuesto-title {
+    color: #ff6b6b;
+    font-size: 24px;
+    text-align: center;
+}
+
+.presupuesto-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.presupuesto-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.presupuesto-item div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presupuesto-item div span {
+    color: #333;
+}
+
+/* Otros estilos divertidos que desees agregar */

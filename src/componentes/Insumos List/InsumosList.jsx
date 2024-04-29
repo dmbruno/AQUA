@@ -1,6 +1,9 @@
 import { Link, useParams } from 'react-router-dom';
 import itemsData from '../../data/mock_data.json';
 import "../../componentes/Insumos List/InsumosList.css"
+import Header from "../../componentes/Header"
+
+
 
 
 const InsumosList = () => {
@@ -19,6 +22,7 @@ const InsumosList = () => {
 
     return (
         <>
+        <Header/>
             <div className='container'>
                 <div className='category-container'>
                     <h2 className='category-title'>Categorías</h2>
