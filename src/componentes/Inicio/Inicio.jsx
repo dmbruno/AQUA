@@ -2,6 +2,7 @@
 import React from 'react';
 import './Inicio.css'
 import { Link } from 'react-router-dom';
+import IniciarSesion from '../IniciarSesion';
 
 const Inicio = () => {
 
@@ -14,6 +15,7 @@ const Inicio = () => {
             <Link to="/insumos">
                 <button className="boton-presupuestar">Presupuestar</button>
             </Link>
+            
         </div>
     );
 };
