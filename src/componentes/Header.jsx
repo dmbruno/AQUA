@@ -3,6 +3,7 @@ import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 import { PresupuestoContext } from '../Context/PresupuestoContext';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const { PresupuestoItem } = useContext(PresupuestoContext); 
@@ -18,10 +19,10 @@ const Header = () => {
                         <li><a href="#">Contacto</a></li>
                     </ul>
                 </nav>
-                <div className="cart-container">
+                <Link to="/presupuesto" className="cart-container">
                     <FontAwesomeIcon icon={faBook} className="notebook-icon" />
                     <span className="item-count">{itemCount}</span>
-                </div>
+                </Link>
             </div>
         </header>
     );

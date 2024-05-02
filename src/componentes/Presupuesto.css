@@ -2,16 +2,20 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
+    height: 87vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom: solid ;
 }
 
 .presupuesto-title {
+    margin-bottom: 15px;
     color: #ff6b6b;
     font-size: 24px;
     text-align: center;
 }
 
 .presupuesto-list {
+    
     list-style-type: none;
     padding: 0;
 }
@@ -33,4 +37,27 @@
     color: #333;
 }
 
-/* Otros estilos divertidos que desees agregar */
+.container-card{
+    height: 40px;
+}
+
+.nombre{
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+.precio{
+    padding-right: 10px;
+}
+
+.total-container{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.totalP{
+    font-weight: bold;
+    color: gray;
+}

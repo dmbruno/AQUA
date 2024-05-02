@@ -5,7 +5,7 @@ import InsumosDetail from './componentes/Insumos List/InsumosDetail';
 import Presupuesto from './componentes/Presupuesto';
 import ProductoFinal from './componentes/ProductoFinal';
 import { useState } from 'react';
-import IniciarSesion from './componentes/IniciarSesion';
+
 
 
 function App() {
