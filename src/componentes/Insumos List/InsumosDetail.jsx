@@ -38,7 +38,7 @@ const InsumoDetail = () => {
 
     return (
         <>
-            <Header />
+            <Header/>
             <div className="insumo-detail-container">
                 <Proveedores data={itemsData} setProveedorSeleccionado={setProveedorSeleccionado} />
                 {proveedorSeleccionado && ( // Renderizar solo si se ha seleccionado un proveedor

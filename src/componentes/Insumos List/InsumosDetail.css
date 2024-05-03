@@ -1,11 +1,11 @@
-/* InsumoDetail.css */
 
-/* Estilos para el contenedor principal */
 .insumo-detail-container{
     padding: .625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: calc(100vh - 133px); /* Resta el alto del footer */
+    overflow-y: auto; 
 }
 
 .container {
@@ -15,19 +15,19 @@
     border-radius: 5px;
 }
 
-/* Estilos para el título de la categoría */
+
 .category-title {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-/* Estilos para el título de productos */
+
 .productos-title {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-/* Estilos para la lista de productos */
+
 .productos-list {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@
     list-style-type: none;
 }
 
-/* Estilos para cada tarjeta de producto */
+
 .producto-item {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -48,21 +48,21 @@
     font-size: .8125rem;
 }
 
-/* Estilos para el texto del nombre del producto */
+
 .producto-nombre {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-/* Estilos para el texto de la descripción del producto */
+
 .descripcion-label {
     font-style: italic;
     color: #666;
     
 }
 
-/* Estilos cuando el usuario pasa el ratón sobre la tarjeta */
+
 .producto-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);

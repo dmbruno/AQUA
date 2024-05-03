@@ -21,8 +21,8 @@
 .proveedores-button {
     padding: 5px 10px; /* Espaciado interno de los botones */
     border: none; /* Quitar bordes */
-    background-color: #007bff; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: rgba(128, 128, 128, 0.696);
+    color: black; /* Color del texto */
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cambiar cursor al pasar el mouse */
     font-size: 1.1875rem;
@@ -30,5 +30,5 @@
 }
 
 .proveedores-button:hover {
-    background-color: #0056b3; /* Cambiar color de fondo al pasar el mouse */
+    background-color: rgba(128, 128, 128, 0.831); /* Cambiar color de fondo al pasar el mouse */
 }

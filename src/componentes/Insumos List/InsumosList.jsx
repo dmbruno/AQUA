@@ -24,7 +24,6 @@ const InsumosList = () => {
             <div>
                 <h2 className='category-title'>Insumos por Categorías</h2>
             </div>
-            <div className=''>
                 <div className='category-container'>
                     <div className='category-buttons'>
                         {categoriasArray.map(categoria => (
@@ -34,7 +33,7 @@ const InsumosList = () => {
                         ))}
                     </div>
                 </div>
-            </div>
+              
             <Footer/>
         </>
     );

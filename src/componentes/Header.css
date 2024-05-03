@@ -1,7 +1,8 @@
 .header-container {
     padding: 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #f0f0f0;
+    border-bottom: 0.5px solid gray;
+    
 }
 
 .header-content {
@@ -17,11 +18,13 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 
 .header-nav ul li {
     display: inline-block;
     margin-right: 20px;
+    color: black;
 }
 
 .header-nav ul li:last-child {
@@ -30,8 +33,9 @@
 
 .header-nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-weight: bold;
+    font-style: oblique;
 }
 
 .cart-container {
@@ -45,14 +49,14 @@
 }
 
 .item-count {
-    background-color: #fff;
-    color: #007bff;
+   
+    color: black;
     border-radius: 50%;
     padding: 5px 8px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .notebook-icon {
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 20px;
+    
 }

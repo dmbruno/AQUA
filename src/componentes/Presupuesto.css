@@ -2,22 +2,23 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    height: 87vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-bottom: solid ;
+    max-height: calc(100vh - 133px); /* Resta el alto del footer */
+    overflow-y: auto; 
 }
 
 .presupuesto-title {
-    margin-bottom: 15px;
-    color: #ff6b6b;
-    font-size: 24px;
     text-align: center;
+    font-style: oblique;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    
 }
 
 .presupuesto-list {
-    
     list-style-type: none;
-    padding: 0;
 }
 
 .presupuesto-item {
@@ -42,7 +43,6 @@
 }
 
 .nombre{
-    
     font-size: 12px;
     font-weight: bold;
 }
@@ -51,6 +51,7 @@
 }
 
 .total-container{
+    border-top: 1px solid gray;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -60,4 +61,5 @@
 .totalP{
     font-weight: bold;
     color: gray;
+    font-size: 20px;
 }
