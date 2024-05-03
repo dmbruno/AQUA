@@ -28,7 +28,7 @@ const ProductoFinal = () => {
                         <p className="card-text">{productoFinal.descripcion}</p>
                         <p className="card-text">{productoFinal.precio}</p>
                         <p className="card-text">{productoFinal.codigo}</p>
-                        <p className="card-text">Categoria: {productoFinal.categoria}</p>
+                        {/* <p className="card-text">Categoria: {productoFinal.categoria}</p> */}
                     </div>
                     <div className='contador-container'>
                         <Contador item={productoFinal} />

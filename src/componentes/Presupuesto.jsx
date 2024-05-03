@@ -35,7 +35,7 @@ const Presupuesto = () => {
                                 <span className='nombre'>{item.nombre}</span>
                                 <br />
                                 <span className='cantidad'>Cantidad: {item.cantidad}</span>
-                                <span className='precio'>ARS {item.precio}</span>
+                                {/* <span className='precio'>ARS {item.precio}</span> */}
                                 <button onClick={() => removeFromCart(item.id)}>
                                     <FontAwesomeIcon icon={faTrash} className="trash-icon" />
                                 </button>
