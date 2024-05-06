@@ -9,6 +9,8 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 const Presupuesto = () => {
     const { PresupuestoItem, removeFromCart } = useContext(PresupuestoContext);
 
+    const rentabilidad = 2
+
 
     const calcularTotalPresupuesto = () => {
         let total = 0;
@@ -16,7 +18,7 @@ const Presupuesto = () => {
 
             const precioLimpio = item.precio.replace('$', '').trim();
             const precioNumerico = parseFloat(precioLimpio.replace(',', ''));
-            total += precioNumerico * item.cantidad;
+            total += (precioNumerico * item.cantidad) * rentabilidad;
         });
         return total.toFixed(2);
     };

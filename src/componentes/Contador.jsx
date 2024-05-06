@@ -40,11 +40,23 @@ const Contador = ({ item }) => {
         navigate('/insumos');
     };
 
+    const handleInputChange = (event) => {
+        const value = parseInt(event.target.value);
+        if (!isNaN(value)) {
+            setCount(value);
+        }
+    };
+
     return (
         <div className="counter-container">
             <div className="counter">
                 <button onClick={decrement} className="counter-btn">-</button>
-                <span className="counter-value">{count}</span>
+                <input
+                    type="number"
+                    className="counter-value"
+                    value={count}
+                    onChange={handleInputChange}
+                />
                 <button onClick={increment} className="counter-btn">+</button>
             </div>
             <div className='container-btn'>
