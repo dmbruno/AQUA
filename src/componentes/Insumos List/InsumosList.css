@@ -1,12 +1,12 @@
-/* InsumosList.css */
 
-/* Estilos para el contenedor del menú */
 .menu-container {
-    width: 120px; /* Ancho del menú lateral */
-    background-color: #f0f0f0; /* Color de fondo del menú */
-    padding: 20px; /* Espacio interno del menú */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del menú */
-    
+    width: 130px; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     
 }
 .menu-and-detail-container{
@@ -14,31 +14,37 @@
     flex-direction: row;
     justify-content: space-between;
 }
-/* Estilos para el título del menú */
-.category-title {
-    font-size: 1rem; /* Tamaño de fuente del título */
-    margin-bottom: 10px; /* Espacio inferior del título */
+
+.categoria-titulo{
+    font-weight: bold;
+    font-style: oblique;
 }
 
-/* Estilos para el menú de categorías */
+
+
 .category-menu {
-    display: flex; /* Mostrar los elementos en línea */
-    flex-direction: column; /* Organizar los elementos en columna */
+    
+    display: flex; 
+    flex-direction: column; 
+    height: 85%;
+    overflow-y: auto;
+    justify-content: space-around;
+    
 }
 
-/* Estilos para cada elemento de categoría */
+
 .category-item {
-    text-decoration: none; /* Eliminar subrayado de enlaces */
-    color: #333; /* Color de texto de los enlaces */
-    padding: 5px 0; /* Espacio interno vertical de los enlaces */
+    text-decoration: none; 
+    color: #333; 
+    padding: 5px 0; 
     font-weight: bold;
     border: 1px solid red;
     text-align: center;
 }
 
-/* Estilos para el hover de los elementos de categoría */
+
 .category-item:hover {
-    background-color: #ddd; /* Cambiar color de fondo al pasar el cursor */
+    background-color: #ddd;
 }
 
 .detail-container{

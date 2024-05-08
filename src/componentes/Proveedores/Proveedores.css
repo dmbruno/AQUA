@@ -10,12 +10,15 @@
 
 .proveedores-title {
     margin-bottom: 10px; 
-    font-size: 1.25rem;
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 10px;
     text-align: center;
     background-color: aqua;
 }
 
 .proveedores-buttons {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around; /* Centrar botones horizontalmente */

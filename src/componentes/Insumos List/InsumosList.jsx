@@ -9,24 +9,23 @@ const InsumosList = () => {
     const [productosFiltrados, setProductosFiltrados] = useState([]);
     const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
-    
+
     const categoriasUnicas = Array.from(new Set(itemsData.map(item => item.categoria)));
 
-    
+
     const filtrarProductos = (categoriaSeleccionada) => {
         const productosCategoria = itemsData.filter(item => item.categoria === categoriaSeleccionada);
         setProductosFiltrados(productosCategoria);
-        setCategoriaSeleccionada(categoriaSeleccionada); 
+        setCategoriaSeleccionada(categoriaSeleccionada);
     };
 
     return (
         <>
             <Header />
-            <div className='menu-and-detail-container'>
+            <div className='menu-and-detail-container shadow-lg shadow-cyan-500/50'>
                 <div className='menu-container'>
-                    <h2 className='category-title'>Categorías</h2>
+                    <h2 className='categoria-titulo'>Categorias</h2>
                     <div className='category-menu'>
-                        
                         {categoriasUnicas.map(categoriaUnica => (
                             <button
                                 key={categoriaUnica}
@@ -39,10 +38,10 @@ const InsumosList = () => {
                     </div>
                 </div>
                 <div className='detail-container'>
-                    <Proveedores 
-                        productosFiltrados={productosFiltrados} 
-                        filtrarProductos={filtrarProductos} 
-                        categoriaSeleccionada={categoriaSeleccionada} 
+                    <Proveedores
+                        productosFiltrados={productosFiltrados}
+                        filtrarProductos={filtrarProductos}
+                        categoriaSeleccionada={categoriaSeleccionada}
                     />
                 </div>
             </div>

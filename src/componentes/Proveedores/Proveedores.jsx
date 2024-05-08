@@ -26,11 +26,14 @@ const Proveedores = ({ productosFiltrados, filtrarProductos, categoriaSelecciona
         }
     }, [categoriaSeleccionada, proveedorSeleccionado, productosFiltrados]);
 
-    const handleProveedorSeleccionado = (proveedor) => {
+    const handleProveedorSeleccionado = (event) => {
+
+        const proveedor = event.target.value;
+
         console.log("proveedor", proveedor);
-        console.log("cat", categoriaSeleccionada); 
+        console.log("cate", categoriaSeleccionada);
+
         if (categoriaSeleccionada) {
-            console.log("categoria", categoriaSeleccionada);
             filtrarProductos(categoriaSeleccionada);
         }
         setProveedorSeleccionado(proveedor);
@@ -39,14 +42,14 @@ const Proveedores = ({ productosFiltrados, filtrarProductos, categoriaSelecciona
 
     return (
         <div className="proveedores-container">
-            <h2 className="proveedores-title">Proveedores:</h2>
+            <h2 className="proveedores-title">Proveedores</h2>
             <div className="proveedores-buttons">
-                
-                {proveedores.map(proveedor => (
-                    <button key={proveedor} className="proveedores-button" onClick={() => handleProveedorSeleccionado(proveedor)}>
-                        {proveedor}
-                    </button>
-                ))}
+            <select onChange={(event) => handleProveedorSeleccionado(event)}>
+                    <option value="">Selecciona un proveedor</option>
+                    {proveedores.map(proveedor => (
+                        <option key={proveedor} value={proveedor}>{proveedor}</option>
+                    ))}
+                </select>
             </div>
             {productosFiltradosPorProveedor.length > 0 && (
                 <>
