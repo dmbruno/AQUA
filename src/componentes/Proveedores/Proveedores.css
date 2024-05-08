@@ -2,31 +2,36 @@
 .proveedores-container {
     text-align: center; /* Centrar contenido */
     margin-bottom: 20px; /* Espaciado inferior */
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 .proveedores-title {
     margin-bottom: 10px; 
-    font-size: 1.25rem;/* Espaciado inferior para el título */
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: aqua;
 }
 
 .proveedores-buttons {
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centrar botones horizontalmente */
-    gap: 10px; /* Espaciado entre botones */
+    flex-direction: row;
+    justify-content: space-around; /* Centrar botones horizontalmente */
+    gap: 20px; /* Espaciado entre botones */
+    
     
 }
 
 .proveedores-button {
-    padding: 5px 10px; /* Espaciado interno de los botones */
-    border: none; /* Quitar bordes */
-    background-color: rgba(128, 128, 128, 0.696);
+    background-color: rgba(186, 25, 25, 0.696);
     color: black; /* Color del texto */
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cambiar cursor al pasar el mouse */
     font-size: 1.1875rem;
     font-weight: bold;
+
 }
 
 .proveedores-button:hover {

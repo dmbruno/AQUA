@@ -1,45 +1,63 @@
-import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import React, { useState } from 'react';
 import itemsData from '../../data/mock_data.json';
-import "../../componentes/Insumos List/InsumosList.css"
+import "../../componentes/Insumos List/InsumosList.css";
 import Header from "../../componentes/Header";
 import Footer from '../Footer/Footer';
+import Proveedores from '../Proveedores/Proveedores';
 
 const InsumosList = () => {
-    const { categoria } = useParams(); // Obtener el parámetro de la URL
+    const [productosFiltrados, setProductosFiltrados] = useState([]);
+    const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
-    // Filtrar los productos por la categoría seleccionada
-    const productosCategoria = itemsData.filter(item => item.categoria === categoria);
+    
+    const categoriasUnicas = Array.from(new Set(itemsData.map(item => item.categoria)));
 
-    // Obtener categorías únicas
-    const categoriasUnicas = new Set();
-    itemsData.forEach(item => {
-        categoriasUnicas.add(item.categoria);
-    });
-    const categoriasArray = Array.from(categoriasUnicas);
+    
+    const filtrarProductos = (categoriaSeleccionada) => {
+        const productosCategoria = itemsData.filter(item => item.categoria === categoriaSeleccionada);
+        setProductosFiltrados(productosCategoria);
+        setCategoriaSeleccionada(categoriaSeleccionada); 
+    };
 
     return (
         <>
             <Header />
-            <div>
-                <h2 className='category-title'>Insumos por Categorías</h2>
-            </div>
-                <div className='category-container'>
-                    <div className='category-buttons'>
-                        {categoriasArray.map(categoria => (
-                            <Link key={categoria} to={`/insumos/${categoria}`} className='category-button'>
-                                {typeof categoria === 'string' ? categoria.toUpperCase() : ''}
-                            </Link>
+            <div className='menu-and-detail-container'>
+                <div className='menu-container'>
+                    <h2 className='category-title'>Categorías</h2>
+                    <div className='category-menu'>
+                        
+                        {categoriasUnicas.map(categoriaUnica => (
+                            <button
+                                key={categoriaUnica}
+                                className='category-item'
+                                onClick={() => filtrarProductos(categoriaUnica)}
+                            >
+                                {categoriaUnica}
+                            </button>
                         ))}
                     </div>
                 </div>
-              
-            <Footer/>
+                <div className='detail-container'>
+                    <Proveedores 
+                        productosFiltrados={productosFiltrados} 
+                        filtrarProductos={filtrarProductos} 
+                        categoriaSeleccionada={categoriaSeleccionada} 
+                    />
+                </div>
+            </div>
+            <Footer />
         </>
     );
 };
 
 export default InsumosList;
+
+
+
+
+
+
 
 
 

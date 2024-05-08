@@ -1,40 +1,47 @@
+/* InsumosList.css */
 
-
-.category-container {
-    display: flex;
-    margin-bottom: 20px;
+/* Estilos para el contenedor del menú */
+.menu-container {
+    width: 120px; /* Ancho del menú lateral */
+    background-color: #f0f0f0; /* Color de fondo del menú */
+    padding: 20px; /* Espacio interno del menú */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del menú */
+    
     
 }
-
-.category-title {
-    text-align: center;
-    font-style: oblique;
-    font-size: 24px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.category-buttons {
+.menu-and-detail-container{
     display: flex;
-    flex-direction: column;
-    margin: 15px;
-    width: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Estilos para el título del menú */
+.category-title {
+    font-size: 1rem; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Espacio inferior del título */
 }
 
-.category-button {
-    display: inline-block;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 12px;
+/* Estilos para el menú de categorías */
+.category-menu {
+    display: flex; /* Mostrar los elementos en línea */
+    flex-direction: column; /* Organizar los elementos en columna */
+}
+
+/* Estilos para cada elemento de categoría */
+.category-item {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: #333; /* Color de texto de los enlaces */
+    padding: 5px 0; /* Espacio interno vertical de los enlaces */
     font-weight: bold;
-    background-color: rgba(128, 128, 128, 0.696);
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
+    border: 1px solid red;
+    text-align: center;
 }
 
-.category-button:hover {
-    background-color: #0056b3;
+/* Estilos para el hover de los elementos de categoría */
+.category-item:hover {
+    background-color: #ddd; /* Cambiar color de fondo al pasar el cursor */
 }
 
+.detail-container{
+    background-color: aqua;
+    width: 70%;
+}
