@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     background-color: #333; /* Color de fondo del header */
-    color: white; /* Color del texto */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Alinear el contenido al centro */
     z-index: 999; /* Asegurarse de que el header esté por encima del contenido */
@@ -31,7 +30,7 @@
 .header-nav ul li {
     display: inline-block;
     margin-right: 20px;
-    color: black;
+    
 }
 
 .header-nav ul li:last-child {
@@ -40,7 +39,7 @@
 
 .header-nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-style: oblique;
 }
@@ -48,6 +47,7 @@
 .cart-container {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .cart-icon {
@@ -56,8 +56,7 @@
 }
 
 .item-count {
-   
-    color: black;
+    color: white;
     border-radius: 50%;
     padding: 5px 8px;
     font-size: 18px;
