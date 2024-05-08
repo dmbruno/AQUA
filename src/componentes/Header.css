@@ -1,7 +1,14 @@
 .header-container {
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-bottom: 0.5px solid gray;
+    position: fixed; /* Hacer que el header sea fijo */
+    top: 0; /* Fijar en la parte superior de la pantalla */
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del header */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alinear el contenido al centro */
+    z-index: 999; /* Asegurarse de que el header esté por encima del contenido */
+
     
 }
 

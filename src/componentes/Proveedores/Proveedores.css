@@ -1,9 +1,9 @@
 
 .proveedores-container {
     text-align: center; /* Centrar contenido */
-    margin-bottom: 20px; /* Espaciado inferior */
     display: flex;
     flex-direction: column;
+    padding: 10px;
     
     
 }
@@ -14,7 +14,7 @@
     font-weight: bold;
     padding-top: 10px;
     text-align: center;
-    background-color: aqua;
+    
 }
 
 .proveedores-buttons {
@@ -39,4 +39,29 @@
 
 .proveedores-button:hover {
     background-color: rgba(128, 128, 128, 0.831); /* Cambiar color de fondo al pasar el mouse */
+}
+
+
+.container-prod{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.producto-item {
+    background-color: #f0f0f0; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 16px; /* Espaciado interno */
+    margin-bottom: 12px; /* Espaciado inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.nombre-label {
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+}
+
+.descripcion-label {
+    color: #666; /* Color del texto secundario */
 }
