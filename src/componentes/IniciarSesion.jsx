@@ -81,7 +81,7 @@ const IniciarSesion = () => {
                 Password
               </label>
               <div className="text-sm">
-                <a href="#" className=" text-black font-semibold text-indigo-600 hover:text-indigo-500">
+                <a href="#" className=" text-red-300 font-semibold text-indigo-600 hover:text-indigo-500">
                   Olvidaste tu contraseña?
                 </a>
               </div>
