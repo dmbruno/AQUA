@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Proveedores.css';
+import { Link } from 'react-router-dom';
 
 const Proveedores = ({ productosFiltrados, filtrarProductos, categoriaSeleccionada }) => {
 
@@ -53,10 +54,10 @@ const Proveedores = ({ productosFiltrados, filtrarProductos, categoriaSelecciona
                     <ul className="productos-list">
                         <div className='container-prod'>
                             {productosFiltradosPorProveedor.map(producto => (
-                                <li key={producto.id} className="producto-item" >
-                                    <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
-                                    <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
-                                </li>
+                                <Link to={`/producto/${producto.id}`} key={producto.id} className="producto-item">
+                                <strong className="nombre-label">Nombre:</strong> {producto.nombre}<br />
+                                <strong className="descripcion-label">Descripción:</strong> {producto.descripcion}<br />
+                            </Link>
                             ))}
                         </div>
                     </ul>

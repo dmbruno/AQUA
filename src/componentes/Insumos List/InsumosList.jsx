@@ -22,7 +22,7 @@ const InsumosList = () => {
     return (
         <>
             <Header />
-            <div className='menu-and-detail-container shadow-lg shadow-cyan-500/50'>
+            <div className='menu-and-detail-container'>
                 <div className='menu-container'>
                     <h2 className='categoria-titulo'>Categorias</h2>
                     <div className='category-menu'>
