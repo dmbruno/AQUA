@@ -35,7 +35,7 @@ const Presupuesto = () => {
                         <li key={item.id} className="presupuesto-item">
                             <div className='container-card'>
                                 <span className='nombre'>{item.nombre}</span>
-                                <br />
+                                <br/>
                                 <span className='cantidad'>Cantidad: {item.cantidad}</span>
                                 {/* <span className='precio'>ARS {item.precio}</span> */}
                                 <button onClick={() => removeFromCart(item.id)}>
