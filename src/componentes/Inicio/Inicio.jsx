@@ -2,7 +2,7 @@
 import React from 'react';
 import './Inicio.css'
 import { Link } from 'react-router-dom';
-import IniciarSesion from '../IniciarSesion';
+
 
 const Inicio = () => {
 
@@ -13,7 +13,7 @@ const Inicio = () => {
                 Bienvenido a nuestra aplicación. Aquí puedes generar presupuestos para proyectos de riego por aspersión y diseño de paisajes.
             </p>
             <Link to="/insumos">
-                <button className="boton-presupuestar">Presupuestar</button>
+                <button className="boton-presupuestar bg-cyan-500 shadow-md shadow-white">Presupuestar</button>
             </Link>
             
         </div>

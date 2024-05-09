@@ -1,7 +1,7 @@
 
 
 .inicio-container {
-    background-image: url("../../img/fondo.jpg");
+    background-image: url("../../img/fondoAqua.jpg");
     background-size: cover ;
     background-position: center;
     display: flex;
@@ -15,7 +15,8 @@
 
 .titulo {
     color: #fff;
-    font-size: 54px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
@@ -30,14 +31,16 @@
 }
 
 .boton-presupuestar {
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 16px;
     font-weight: bolder;
     border: none;
-    background-color: rgb(128, 128, 128);
+    background-color: lightblue;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    border-radius: 50px;
+    
     
 }
 
