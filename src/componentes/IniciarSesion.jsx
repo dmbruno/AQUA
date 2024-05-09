@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { UserContext } from '../Context/userContext';
 import { Navigate, useNavigate } from 'react-router-dom';
+import logo from "../img/logoAqua.jpg"
 
 const IniciarSesion = () => {
   const user = useContext(UserContext);
@@ -46,10 +47,10 @@ const IniciarSesion = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
           className="mx-auto h-10 w-auto"
-          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+          src={logo}
           alt="Your Company"
         />
-        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-600">
           Iniciar Sesion
         </h2>
       </div>
@@ -80,7 +81,7 @@ const IniciarSesion = () => {
                 Password
               </label>
               <div className="text-sm">
-                <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                <a href="#" className=" text-black font-semibold text-indigo-600 hover:text-indigo-500">
                   Olvidaste tu contraseña?
                 </a>
               </div>
@@ -104,7 +105,7 @@ const IniciarSesion = () => {
           <div>
             <button
               type="submit"
-              className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex w-full justify-center rounded-md bg-black px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Iniciar Sesion
             </button>
@@ -113,7 +114,7 @@ const IniciarSesion = () => {
 
         <p className="mt-10 text-center text-sm text-gray-500">
           No tienes una cuenta?{' '}
-          <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+          <a href="#" className="text-red-500 font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
             Probala Gratis ¡Aca!
           </a>
         </p>

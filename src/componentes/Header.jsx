@@ -14,9 +14,8 @@ const Header = () => {
             <div className="header-content">
                 <nav className="header-nav">
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Contacto</a></li>
+                    <li><Link to="/insumos">Inicio</Link></li>
+                        
                     </ul>
                 </nav>
                 <Link to="/presupuesto" className="cart-container">
